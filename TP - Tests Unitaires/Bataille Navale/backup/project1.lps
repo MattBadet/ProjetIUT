@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="11"/>
+    <BuildModes Active="Default"/>
+    <Units Count="4">
+      <Unit0>
+        <Filename Value="project1.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <CursorPos X="29" Y="3"/>
+        <UsageCount Value="21"/>
+        <Loaded Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="unitbataillenavalelogic.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="UnitBatailleNavaleLogic"/>
+        <EditorIndex Value="1"/>
+        <CursorPos X="58"/>
+        <UsageCount Value="21"/>
+        <Loaded Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="unitbataillenavalejoueurs.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="UnitBatailleNavaleJoueurs"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="2"/>
+        <TopLine Value="22"/>
+        <CursorPos X="42" Y="31"/>
+        <UsageCount Value="21"/>
+        <Loaded Value="True"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="unitbataillenavaleihm.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="UnitBatailleNavaleIHM"/>
+        <EditorIndex Value="3"/>
+        <CursorPos X="28"/>
+        <UsageCount Value="21"/>
+        <Loaded Value="True"/>
+      </Unit3>
+    </Units>
+    <JumpHistory Count="28" HistoryIndex="27">
+      <Position1>
+        <Filename Value="unitbataillenavalelogic.pas"/>
+        <Caret Line="20" Column="30"/>
+      </Position1>
+      <Position2>
+        <Filename Value="project1.lpr"/>
+        <Caret Line="3" Column="29"/>
+      </Position2>
+      <Position3>
+        <Filename Value="unitbataillenavalelogic.pas"/>
+        <Caret Line="66" Column="10" TopLine="16"/>
+      </Position3>
+      <Position4>
+        <Filename Value="unitbataillenavalelogic.pas"/>
+        <Caret Line="11" Column="20"/>
+      </Position4>
+      <Position5>
+        <Filename Value="unitbataillenavalejoueurs.pas"/>
+        <Caret Line="8" Column="23"/>
+      </Position5>
+      <Position6>
+        <Filename Value="unitbataillenavalejoueurs.pas"/>
+        <Caret Line="33" Column="69" TopLine="4"/>
+      </Position6>
+      <Position7>
+        <Filename Value="unitbataillenavalelogic.pas"/>
+        <Caret Line="13" Column="20"/>
+      </Position7>
+      <Position8>
+        <Filename Value="unitbataillenavalelogic.pas"/>
+        <Caret Line="37" Column="42"/>
+      </Position8>
+      <Position9>
+        <Filename Value="unitbataillenavalejoueurs.pas"/>
+        <Caret Line="41" Column="65" TopLine="21"/>
+      </Position9>
+      <Position10>
+        <Filename Value="unitbataillenavalelogic.pas"/>
+        <Caret Line="26" Column="28"/>
+      </Position10>
+      <Position11>
+        <Filename Value="unitbataillenavalejoueurs.pas"/>
+        <Caret Line="111" Column="55" TopLine="68"/>
+      </Position11>
+      <Position12>
+        <Filename Value="unitbataillenavalelogic.pas"/>
+        <Caret Line="12"/>
+      </Position12>
+      <Position13>
+        <Filename Value="unitbataillenavalelogic.pas"/>
+        <Caret Line="30" Column="16"/>
+      </Position13>
+      <Position14>
+        <Filename Value="unitbataillenavalelogic.pas"/>
+        <Caret Line="13" Column="34"/>
+      </Position14>
+      <Position15>
+        <Filename Value="unitbataillenavalejoueurs.pas"/>
+        <Caret Line="108" Column="25" TopLine="71"/>
+      </Position15>
+      <Position16>
+        <Filename Value="unitbataillenavalejoueurs.pas"/>
+        <Caret Line="36" Column="37" TopLine="11"/>
+      </Position16>
+      <Position17>
+        <Filename Value="unitbataillenavalejoueurs.pas"/>
+        <Caret Line="39" Column="11" TopLine="15"/>
+      </Position17>
+      <Position18>
+        <Filename Value="unitbataillenavalelogic.pas"/>
+        <Caret Line="20" Column="5"/>
+      </Position18>
+      <Position19>
+        <Filename Value="unitbataillenavalelogic.pas"/>
+        <Caret Line="57" TopLine="9"/>
+      </Position19>
+      <Position20>
+        <Filename Value="unitbataillenavalelogic.pas"/>
+        <Caret Line="14" Column="10"/>
+      </Position20>
+      <Position21>
+        <Filename Value="unitbataillenavalelogic.pas"/>
+        <Caret Line="12" Column="51"/>
+      </Position21>
+      <Position22>
+        <Filename Value="unitbataillenavalelogic.pas"/>
+        <Caret Line="54" Column="15" TopLine="23"/>
+      </Position22>
+      <Position23>
+        <Filename Value="unitbataillenavalelogic.pas"/>
+        <Caret Line="42" Column="29" TopLine="19"/>
+      </Position23>
+      <Position24>
+        <Filename Value="unitbataillenavaleihm.pas"/>
+        <Caret Line="78" Column="31" TopLine="56"/>
+      </Position24>
+      <Position25>
+        <Filename Value="unitbataillenavalejoueurs.pas"/>
+        <Caret Line="151" Column="54" TopLine="127"/>
+      </Position25>
+      <Position26>
+        <Filename Value="unitbataillenavalejoueurs.pas"/>
+        <Caret Line="153" Column="59" TopLine="130"/>
+      </Position26>
+      <Position27>
+        <Filename Value="unitbataillenavalejoueurs.pas"/>
+        <Caret Line="168" Column="28" TopLine="130"/>
+      </Position27>
+      <Position28>
+        <Filename Value="unitbataillenavalelogic.pas"/>
+        <Caret Line="44" Column="44" TopLine="16"/>
+      </Position28>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes Count="0" ActiveMode="default"/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>

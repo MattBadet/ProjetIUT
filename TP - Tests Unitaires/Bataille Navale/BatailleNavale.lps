@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="11"/>
+    <BuildModes Active="Default"/>
+    <Units Count="6">
+      <Unit0>
+        <Filename Value="BatailleNavale.pas"/>
+        <IsPartOfProject Value="True"/>
+        <CursorPos X="5" Y="7"/>
+        <UsageCount Value="29"/>
+        <Loaded Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="unitbataillenavalelogic.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="UnitBatailleNavaleLogic"/>
+        <EditorIndex Value="3"/>
+        <TopLine Value="41"/>
+        <CursorPos X="29" Y="2"/>
+        <UsageCount Value="29"/>
+        <Loaded Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="unitbataillenavalejoueurs.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="UnitBatailleNavaleJoueurs"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="4"/>
+        <TopLine Value="11"/>
+        <CursorPos X="44" Y="175"/>
+        <UsageCount Value="29"/>
+        <Loaded Value="True"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="unitbataillenavaleihm.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="UnitBatailleNavaleIHM"/>
+        <EditorIndex Value="5"/>
+        <CursorPos X="27"/>
+        <UsageCount Value="29"/>
+        <Loaded Value="True"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="unitbataillenavaletestunitaire.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="UnitBatailleNavaleTestUnitaire"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="8"/>
+        <CursorPos X="25" Y="49"/>
+        <UsageCount Value="28"/>
+        <Loaded Value="True"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="testunitaire.pas"/>
+        <UnitName Value="TestUnitaire"/>
+        <EditorIndex Value="2"/>
+        <TopLine Value="240"/>
+        <CursorPos X="18"/>
+        <UsageCount Value="14"/>
+        <Loaded Value="True"/>
+      </Unit5>
+    </Units>
+    <JumpHistory Count="29" HistoryIndex="28">
+      <Position1>
+        <Filename Value="unitbataillenavalelogic.pas"/>
+        <Caret Line="42" Column="29" TopLine="19"/>
+      </Position1>
+      <Position2>
+        <Filename Value="unitbataillenavaleihm.pas"/>
+        <Caret Line="78" Column="31" TopLine="56"/>
+      </Position2>
+      <Position3>
+        <Filename Value="unitbataillenavalejoueurs.pas"/>
+        <Caret Line="151" Column="54" TopLine="127"/>
+      </Position3>
+      <Position4>
+        <Filename Value="unitbataillenavalejoueurs.pas"/>
+        <Caret Line="153" Column="59" TopLine="130"/>
+      </Position4>
+      <Position5>
+        <Filename Value="unitbataillenavalejoueurs.pas"/>
+        <Caret Line="168" Column="28" TopLine="130"/>
+      </Position5>
+      <Position6>
+        <Filename Value="unitbataillenavalelogic.pas"/>
+        <Caret Line="44" Column="44" TopLine="16"/>
+      </Position6>
+      <Position7>
+        <Filename Value="unitbataillenavalejoueurs.pas"/>
+        <Caret Line="31" Column="42" TopLine="22"/>
+      </Position7>
+      <Position8>
+        <Filename Value="unitbataillenavalelogic.pas"/>
+        <Caret Line="41" Column="31" TopLine="22"/>
+      </Position8>
+      <Position9>
+        <Filename Value="unitbataillenavaletestunitaire.pas"/>
+        <Caret Line="60" Column="48" TopLine="34"/>
+      </Position9>
+      <Position10>
+        <Filename Value="unitbataillenavaletestunitaire.pas"/>
+        <Caret Line="92" Column="5" TopLine="50"/>
+      </Position10>
+      <Position11>
+        <Filename Value="unitbataillenavaletestunitaire.pas"/>
+        <Caret Line="72" Column="36" TopLine="34"/>
+      </Position11>
+      <Position12>
+        <Filename Value="unitbataillenavaletestunitaire.pas"/>
+        <Caret Line="53" Column="59" TopLine="33"/>
+      </Position12>
+      <Position13>
+        <Filename Value="unitbataillenavaletestunitaire.pas"/>
+        <Caret Line="58" Column="36" TopLine="33"/>
+      </Position13>
+      <Position14>
+        <Filename Value="unitbataillenavaletestunitaire.pas"/>
+        <Caret Line="61" Column="29" TopLine="33"/>
+      </Position14>
+      <Position15>
+        <Filename Value="unitbataillenavaletestunitaire.pas"/>
+        <Caret Line="62" Column="20" TopLine="33"/>
+      </Position15>
+      <Position16>
+        <Filename Value="unitbataillenavaletestunitaire.pas"/>
+        <Caret Line="66" Column="29" TopLine="33"/>
+      </Position16>
+      <Position17>
+        <Filename Value="unitbataillenavaletestunitaire.pas"/>
+        <Caret Line="101" Column="20" TopLine="66"/>
+      </Position17>
+      <Position18>
+        <Filename Value="unitbataillenavaletestunitaire.pas"/>
+        <Caret Line="103" Column="20" TopLine="68"/>
+      </Position18>
+      <Position19>
+        <Filename Value="unitbataillenavaletestunitaire.pas"/>
+        <Caret Line="21" Column="25"/>
+      </Position19>
+      <Position20>
+        <Filename Value="unitbataillenavaletestunitaire.pas"/>
+        <Caret Line="24" Column="36"/>
+      </Position20>
+      <Position21>
+        <Filename Value="unitbataillenavaletestunitaire.pas"/>
+        <Caret Line="26" Column="42"/>
+      </Position21>
+      <Position22>
+        <Filename Value="unitbataillenavaletestunitaire.pas"/>
+        <Caret Line="27" Column="72"/>
+      </Position22>
+      <Position23>
+        <Filename Value="unitbataillenavaletestunitaire.pas"/>
+        <Caret Line="28" Column="20"/>
+      </Position23>
+      <Position24>
+        <Filename Value="unitbataillenavaletestunitaire.pas"/>
+        <Caret Line="57" Column="34" TopLine="31"/>
+      </Position24>
+      <Position25>
+        <Filename Value="unitbataillenavaletestunitaire.pas"/>
+        <Caret Line="62" Column="29" TopLine="46"/>
+      </Position25>
+      <Position26>
+        <Filename Value="unitbataillenavaletestunitaire.pas"/>
+        <Caret Line="225" Column="75" TopLine="193"/>
+      </Position26>
+      <Position27>
+        <Filename Value="unitbataillenavaletestunitaire.pas"/>
+        <Caret Line="181" Column="35" TopLine="160"/>
+      </Position27>
+      <Position28>
+        <Filename Value="unitbataillenavaletestunitaire.pas"/>
+        <Caret Line="182" Column="74" TopLine="161"/>
+      </Position28>
+      <Position29>
+        <Filename Value="unitbataillenavalejoueurs.pas"/>
+        <Caret Line="125" Column="48" TopLine="111"/>
+      </Position29>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes Count="0" ActiveMode="default"/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>

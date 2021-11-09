@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="11"/>
+    <BuildModes Active="Default"/>
+    <Units Count="4">
+      <Unit0>
+        <Filename Value="BlackJack.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <CursorPos X="10" Y="7"/>
+        <UsageCount Value="23"/>
+        <Loaded Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="unitblackjacklogic.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="unitBlackJackLogic"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="37"/>
+        <CursorPos X="5" Y="64"/>
+        <FoldState Value=" T3iZ07g"/>
+        <UsageCount Value="23"/>
+        <Loaded Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="unitblackjackihm.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="unitBlackJackIHM"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="2"/>
+        <TopLine Value="83"/>
+        <CursorPos X="22" Y="100"/>
+        <UsageCount Value="23"/>
+        <Loaded Value="True"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="GestionEcran.pas"/>
+        <EditorIndex Value="3"/>
+        <CursorPos X="38" Y="26"/>
+        <UsageCount Value="11"/>
+        <Loaded Value="True"/>
+      </Unit3>
+    </Units>
+    <JumpHistory Count="23" HistoryIndex="22">
+      <Position1>
+        <Filename Value="BlackJack.lpr"/>
+        <Caret Line="6" Column="11"/>
+      </Position1>
+      <Position2>
+        <Filename Value="unitblackjacklogic.pas"/>
+        <Caret Line="86" Column="29" TopLine="68"/>
+      </Position2>
+      <Position3>
+        <Filename Value="unitblackjackihm.pas"/>
+        <Caret Line="69" Column="38" TopLine="49"/>
+      </Position3>
+      <Position4>
+        <Filename Value="unitblackjacklogic.pas"/>
+        <Caret Line="71" Column="21" TopLine="57"/>
+      </Position4>
+      <Position5>
+        <Filename Value="unitblackjacklogic.pas"/>
+        <Caret Line="120" Column="35" TopLine="99"/>
+      </Position5>
+      <Position6>
+        <Filename Value="unitblackjacklogic.pas"/>
+        <Caret Line="79" Column="20" TopLine="45"/>
+      </Position6>
+      <Position7>
+        <Filename Value="unitblackjacklogic.pas"/>
+        <Caret Line="123" Column="33" TopLine="38"/>
+      </Position7>
+      <Position8>
+        <Filename Value="unitblackjacklogic.pas"/>
+        <Caret Line="55" Column="60" TopLine="37"/>
+      </Position8>
+      <Position9>
+        <Filename Value="unitblackjackihm.pas"/>
+        <Caret Line="176" Column="28" TopLine="105"/>
+      </Position9>
+      <Position10>
+        <Filename Value="unitblackjackihm.pas"/>
+        <Caret Line="141" Column="37" TopLine="104"/>
+      </Position10>
+      <Position11>
+        <Filename Value="unitblackjackihm.pas"/>
+        <Caret Line="144" Column="37" TopLine="107"/>
+      </Position11>
+      <Position12>
+        <Filename Value="unitblackjackihm.pas"/>
+        <Caret Line="52" Column="53" TopLine="27"/>
+      </Position12>
+      <Position13>
+        <Filename Value="unitblackjackihm.pas"/>
+        <Caret Line="30" Column="40" TopLine="18"/>
+      </Position13>
+      <Position14>
+        <Filename Value="GestionEcran.pas"/>
+        <Caret Line="49" Column="48" TopLine="28"/>
+      </Position14>
+      <Position15>
+        <Filename Value="unitblackjackihm.pas"/>
+        <Caret Line="30" Column="46" TopLine="13"/>
+      </Position15>
+      <Position16>
+        <Filename Value="unitblackjackihm.pas"/>
+        <Caret Line="39" Column="29" TopLine="7"/>
+      </Position16>
+      <Position17>
+        <Filename Value="unitblackjackihm.pas"/>
+        <Caret Line="43" Column="19" TopLine="16"/>
+      </Position17>
+      <Position18>
+        <Filename Value="unitblackjackihm.pas"/>
+        <Caret Line="46" Column="15" TopLine="30"/>
+      </Position18>
+      <Position19>
+        <Filename Value="unitblackjackihm.pas"/>
+        <Caret Line="49" Column="20" TopLine="25"/>
+      </Position19>
+      <Position20>
+        <Filename Value="unitblackjackihm.pas"/>
+        <Caret Line="62" Column="49" TopLine="45"/>
+      </Position20>
+      <Position21>
+        <Filename Value="unitblackjackihm.pas"/>
+        <Caret Line="63" Column="28" TopLine="44"/>
+      </Position21>
+      <Position22>
+        <Filename Value="unitblackjackihm.pas"/>
+        <Caret Line="101" Column="52" TopLine="81"/>
+      </Position22>
+      <Position23>
+        <Filename Value="unitblackjackihm.pas"/>
+        <Caret Line="100" Column="18" TopLine="83"/>
+      </Position23>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes Count="0" ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>

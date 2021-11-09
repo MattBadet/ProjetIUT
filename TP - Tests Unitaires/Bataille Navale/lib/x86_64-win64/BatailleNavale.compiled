@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Compiler Value="C:\ProgramData\Lazarus\fpc\3.2.0\bin\x86_64-win64\fpc.exe" Date="1357348719"/>
+  <Params Value=" -MObjFPC -Scghi -O1 -g -gl -l -vewnhibq &quot;-FiC:\Users\Matthieu\Desktop\SAé 1.01\Bataille Navale\lib\x86_64-win64&quot; &quot;-FuC:\Users\Matthieu\Desktop\SAé 1.01\Bataille Navale\&quot; &quot;-FUC:\Users\Matthieu\Desktop\SAé 1.01\Bataille Navale\lib\x86_64-win64\&quot; &quot;-FEC:\Users\Matthieu\Desktop\SAé 1.01\Bataille Navale\&quot; &quot;-oC:\Users\Matthieu\Desktop\SAé 1.01\Bataille Navale\BatailleNavale.exe&quot; BatailleNavale.pas"/>
+</CONFIG>
