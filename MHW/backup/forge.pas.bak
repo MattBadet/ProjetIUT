@@ -223,12 +223,12 @@ begin
     end;
     if invbombe[y].nom <> 'null' then
     begin
+       y:=y+1;
        if y > length(invbombe) then
        begin
           fini:=True;
           writeln('inventory full');
        end;
-       y:=y+1;
     end;
   end;
 end;

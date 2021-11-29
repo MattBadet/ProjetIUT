@@ -18,7 +18,6 @@ begin
   afficheinv();
   writeln('=========================================');
   ajouterinvpotion(petitepotion);
-  afficheinv();
   readln;
 end.
 
