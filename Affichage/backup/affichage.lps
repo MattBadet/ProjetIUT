@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="11"/>
+    <BuildModes Active="Default"/>
+    <Units Count="11">
+      <Unit0>
+        <Filename Value="affichage.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <CursorPos X="31" Y="16"/>
+        <UsageCount Value="49"/>
+        <Loaded Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="E:\R1_01 - Initiation au développement\Chap. 4 - Ss Programmes\9_ligne\formechar.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="formeChar"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="10"/>
+        <CursorPos X="18" Y="98"/>
+        <UsageCount Value="46"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="..\test\mhnwaffichage.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="mhnwAffichage"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="103"/>
+        <CursorPos X="5" Y="130"/>
+        <UsageCount Value="44"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="..\test\menu.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="4" Y="10"/>
+        <UsageCount Value="44"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="..\test\affichageobjet.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="affichageObjet"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="122"/>
+        <CursorPos X="42" Y="123"/>
+        <FoldState Value=" T3M0M313y"/>
+        <UsageCount Value="31"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="..\test\affichagemenu.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="103"/>
+        <CursorPos X="10" Y="130"/>
+        <UsageCount Value="26"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="E:\test\GestionEcran.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="122"/>
+        <CursorPos X="32" Y="132"/>
+        <UsageCount Value="10"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="..\test\GestionEcran.pas"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="15" Y="14"/>
+        <UsageCount Value="19"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="affichagemenu.pas"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="71"/>
+        <CursorPos X="31" Y="90"/>
+        <FoldState Value=" T3Q0N013D"/>
+        <UsageCount Value="13"/>
+        <Loaded Value="True"/>
+      </Unit8>
+      <Unit9>
+        <Filename Value="affichageobjet.pas"/>
+        <UnitName Value="affichageObjet"/>
+        <EditorIndex Value="2"/>
+        <TopLine Value="4"/>
+        <CursorPos Y="92"/>
+        <FoldState Value=" T3B0M3 pj6ja0I4]9XkI0g2[I4kA0o]9iXk0081$"/>
+        <UsageCount Value="13"/>
+        <Loaded Value="True"/>
+      </Unit9>
+      <Unit10>
+        <Filename Value="GestionEcran.pas"/>
+        <EditorIndex Value="3"/>
+        <TopLine Value="18"/>
+        <CursorPos X="32" Y="32"/>
+        <UsageCount Value="13"/>
+        <Loaded Value="True"/>
+      </Unit10>
+    </Units>
+    <JumpHistory Count="26" HistoryIndex="25">
+      <Position1>
+        <Filename Value="affichage.lpr"/>
+        <Caret Line="4" Column="48"/>
+      </Position1>
+      <Position2>
+        <Filename Value="affichage.lpr"/>
+        <Caret Line="12" Column="7"/>
+      </Position2>
+      <Position3>
+        <Filename Value="affichage.lpr"/>
+        <Caret Line="13" Column="5"/>
+      </Position3>
+      <Position4>
+        <Filename Value="affichagemenu.pas"/>
+        <Caret Line="21" Column="27" TopLine="3"/>
+      </Position4>
+      <Position5>
+        <Filename Value="affichageobjet.pas"/>
+        <Caret Line="71" Column="6" TopLine="71"/>
+      </Position5>
+      <Position6>
+        <Filename Value="affichageobjet.pas"/>
+        <Caret Line="313" Column="14" TopLine="300"/>
+      </Position6>
+      <Position7>
+        <Filename Value="affichageobjet.pas"/>
+        <Caret Line="136" Column="51" TopLine="127"/>
+      </Position7>
+      <Position8>
+        <Filename Value="affichageobjet.pas"/>
+        <Caret Line="106" Column="27" TopLine="72"/>
+      </Position8>
+      <Position9>
+        <Filename Value="affichageobjet.pas"/>
+        <Caret Line="22" TopLine="7"/>
+      </Position9>
+      <Position10>
+        <Filename Value="affichageobjet.pas"/>
+        <Caret Line="21" Column="20" TopLine="7"/>
+      </Position10>
+      <Position11>
+        <Filename Value="affichage.lpr"/>
+        <Caret Line="19" Column="64"/>
+      </Position11>
+      <Position12>
+        <Filename Value="affichagemenu.pas"/>
+        <Caret Line="5" Column="14"/>
+      </Position12>
+      <Position13>
+        <Filename Value="affichagemenu.pas"/>
+        <Caret Line="19" Column="20" TopLine="4"/>
+      </Position13>
+      <Position14>
+        <Filename Value="affichagemenu.pas"/>
+        <Caret Line="20" Column="19" TopLine="4"/>
+      </Position14>
+      <Position15>
+        <Filename Value="affichagemenu.pas"/>
+        <Caret Line="19" Column="7" TopLine="4"/>
+      </Position15>
+      <Position16>
+        <Filename Value="affichageobjet.pas"/>
+        <Caret Line="281" Column="20" TopLine="281"/>
+      </Position16>
+      <Position17>
+        <Filename Value="affichageobjet.pas"/>
+        <Caret Line="618" Column="5" TopLine="471"/>
+      </Position17>
+      <Position18>
+        <Filename Value="affichageobjet.pas"/>
+        <Caret Line="619" Column="4" TopLine="471"/>
+      </Position18>
+      <Position19>
+        <Filename Value="affichagemenu.pas"/>
+        <Caret Line="14" Column="14"/>
+      </Position19>
+      <Position20>
+        <Filename Value="affichagemenu.pas"/>
+        <Caret Line="134" Column="34"/>
+      </Position20>
+      <Position21>
+        <Filename Value="affichagemenu.pas"/>
+        <Caret Line="131" Column="54" TopLine="3"/>
+      </Position21>
+      <Position22>
+        <Filename Value="affichagemenu.pas"/>
+        <Caret Line="134" Column="50" TopLine="3"/>
+      </Position22>
+      <Position23>
+        <Filename Value="affichagemenu.pas"/>
+        <Caret Line="198" Column="20" TopLine="178"/>
+      </Position23>
+      <Position24>
+        <Filename Value="affichage.lpr"/>
+        <Caret Line="14" Column="13"/>
+      </Position24>
+      <Position25>
+        <Filename Value="affichage.lpr"/>
+        <Caret Line="8" Column="5"/>
+      </Position25>
+      <Position26>
+        <Filename Value="affichage.lpr"/>
+        <Caret Line="16" Column="7"/>
+      </Position26>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes Count="0" ActiveMode="default"/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>
