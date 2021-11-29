@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="11"/>
+    <BuildModes Active="Default"/>
+    <Units Count="2">
+      <Unit0>
+        <Filename Value="progprinc.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <CursorPos X="22" Y="3"/>
+        <UsageCount Value="21"/>
+        <Loaded Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="forge.pas"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="33"/>
+        <CursorPos X="5" Y="59"/>
+        <UsageCount Value="21"/>
+        <Loaded Value="True"/>
+      </Unit1>
+    </Units>
+    <JumpHistory Count="19" HistoryIndex="18">
+      <Position1>
+        <Filename Value="progprinc.lpr"/>
+        <Caret Line="75" Column="30" TopLine="49"/>
+      </Position1>
+      <Position2>
+        <Filename Value="progprinc.lpr"/>
+        <Caret Line="3" Column="21"/>
+      </Position2>
+      <Position3>
+        <Filename Value="forge.pas"/>
+        <Caret Line="8" Column="21"/>
+      </Position3>
+      <Position4>
+        <Filename Value="forge.pas"/>
+        <Caret Line="13"/>
+      </Position4>
+      <Position5>
+        <Filename Value="forge.pas"/>
+        <Caret Line="22" Column="19"/>
+      </Position5>
+      <Position6>
+        <Filename Value="progprinc.lpr"/>
+        <Caret Line="4"/>
+      </Position6>
+      <Position7>
+        <Filename Value="forge.pas"/>
+        <Caret Line="100" Column="30" TopLine="77"/>
+      </Position7>
+      <Position8>
+        <Filename Value="progprinc.lpr"/>
+        <Caret Line="53" Column="23" TopLine="30"/>
+      </Position8>
+      <Position9>
+        <Filename Value="progprinc.lpr"/>
+        <Caret Line="13" Column="7" TopLine="5"/>
+      </Position9>
+      <Position10>
+        <Filename Value="forge.pas"/>
+        <Caret Line="18" Column="21"/>
+      </Position10>
+      <Position11>
+        <Filename Value="forge.pas"/>
+        <Caret Line="134" Column="5" TopLine="101"/>
+      </Position11>
+      <Position12>
+        <Filename Value="forge.pas"/>
+        <Caret Line="9" Column="33"/>
+      </Position12>
+      <Position13>
+        <Filename Value="forge.pas"/>
+        <Caret Line="35" Column="6" TopLine="13"/>
+      </Position13>
+      <Position14>
+        <Filename Value="forge.pas"/>
+        <Caret Line="17"/>
+      </Position14>
+      <Position15>
+        <Filename Value="forge.pas"/>
+        <Caret Line="8" Column="3"/>
+      </Position15>
+      <Position16>
+        <Filename Value="forge.pas"/>
+        <Caret Line="7" Column="21"/>
+      </Position16>
+      <Position17>
+        <Filename Value="progprinc.lpr"/>
+        <Caret Line="11" Column="24"/>
+      </Position17>
+      <Position18>
+        <Filename Value="forge.pas"/>
+        <Caret Line="128" Column="29" TopLine="112"/>
+      </Position18>
+      <Position19>
+        <Filename Value="forge.pas"/>
+        <Caret Line="138" Column="22" TopLine="111"/>
+      </Position19>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes Count="0" ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>
