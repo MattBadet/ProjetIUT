@@ -11,9 +11,37 @@ type
     dragon: boolean;
   end;
 
-function combat(vieU, arme: integer):integer;
+function combat(joueur : personnage): personnage;
 
 implementation
+
+function choixMonstre();
+
+const
+  griffon: monstre = (
+    id:1;
+    vieBase:100;
+    dragon:TRUE;
+  );
+  dragonDesMontagnes: monstre = (
+    id:2;
+    vieBase:150;
+    dragon:TRUE;
+  );
+  dragonMagmatique : monstre = (
+    id:3;
+    vieBase:200;
+    dragon:TRUE;
+  );
+  phoenix: monstre = (
+    id:4;
+    vieBase:250;
+    dragon:FALSE;
+  );
+
+begin
+
+end;
 
 //Tour du joueur
 function tourJ(vieMd, arme : integer): integer;
@@ -80,38 +108,20 @@ begin
   result := vieU;
 end;
 
-//Logique du combat. Retourne la vie restante du joueur (0 si perdu).
-function combat(vieU, arme: integer):integer;
-
-const
-  griffon: monstre = (
-    id:1;
-    vieBase:100;
-    dragon:TRUE;
-  );
-  dragonDesMontagnes: monstre = (
-    id:2;
-    vieBase:150;
-    dragon:TRUE;
-  );
-  dragonMagmatique : monstre = (
-    id:3;
-    vieBase:200;
-    dragon:TRUE;
-  );
-  phoenix: monstre = (
-    id:4;
-    vieBase:250;
-    dragon:FALSE;
-  );
+//Logique du combat. Retourne le record du joueur
+function combat(joueur: personnage): personnage;
 
 var
-  vieMi, vieMd : integer; //dU = dégats du joueur ; reussite = echec ou critique ; vieMd = vie du monstre actuel ; dM = dégats du monstre ; vieMi = vie du monstre initial
+  vieMi, vieMd : integer; //vieMd = vie du monstre actuel ; vieMi = vie du monstre initial
+  monstreActu : monstre;
 
 begin
   randomize;
-  vieMi := (random(400) + 100); //choix aléatoire de la vie du monstre
-  vieMd := vieMi;
+  vieU := joueur.defGlobal;
+  monstreActu := choixMonstre(random(4)); //choix aléatoire de la vie du monstre
+  vieMi := (monstreActu.vieBase * joueur.lvl);
+  arme := joueur.atkGlobal;
+
 
   if (vieU > vieMd) then //si le joeur a plus de vie que le monstre il commence
   vieMd := tourJ(vieMd, arme);

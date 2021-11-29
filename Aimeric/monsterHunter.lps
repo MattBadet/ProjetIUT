@@ -8,9 +8,8 @@
       <Unit0>
         <Filename Value="monsterHunter.lpr"/>
         <IsPartOfProject Value="True"/>
-        <TopLine Value="3"/>
-        <CursorPos X="10" Y="15"/>
-        <UsageCount Value="58"/>
+        <CursorPos X="10" Y="6"/>
+        <UsageCount Value="60"/>
         <Loaded Value="True"/>
       </Unit0>
       <Unit1>
@@ -19,9 +18,10 @@
         <UnitName Value="combatUnit"/>
         <IsVisibleTab Value="True"/>
         <EditorIndex Value="2"/>
-        <TopLine Value="89"/>
-        <CursorPos X="14" Y="104"/>
-        <UsageCount Value="49"/>
+        <TopLine Value="111"/>
+        <CursorPos X="22" Y="122"/>
+        <FoldState Value=" TC7J4 T3i30d1t"/>
+        <UsageCount Value="51"/>
         <Loaded Value="True"/>
       </Unit1>
       <Unit2>
@@ -29,13 +29,14 @@
         <IsPartOfProject Value="True"/>
         <UnitName Value="menuUnit"/>
         <EditorIndex Value="1"/>
-        <TopLine Value="46"/>
-        <CursorPos X="22" Y="37"/>
-        <UsageCount Value="44"/>
+        <TopLine Value="78"/>
+        <CursorPos X="27" Y="94"/>
+        <FoldState Value=" T3B0d6"/>
+        <UsageCount Value="46"/>
         <Loaded Value="True"/>
       </Unit2>
       <Unit3>
-        <Filename Value="..\..\..\..\..\..\..\GestionEcran.pas"/>
+        <Filename Value="C:\GestionEcran.pas"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="3"/>
         <CursorPos X="25" Y="13"/>

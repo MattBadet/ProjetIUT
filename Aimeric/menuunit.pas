@@ -36,8 +36,8 @@ begin
         begin
           dormi := TRUE;
 
-          vieActu.joueur := vieActu.joueur + (vieMax.joueur div 5);
-          if (vieActu.joueur > vieMax.joueur) then
+          vieActu.joueur := vieActu.joueur + (vieMax.joueur div 5); //regen du perso
+          if (vieActu.joueur > vieMax.joueur) then //si la regen fait dépasser sa vie max, on le remet à sa vie max
           vieActu.joueur := vieMax.joueur;
         end;
       end // if (choixU = 2)
@@ -47,7 +47,6 @@ begin
       end;
     end; //if (choixU = 1) then
   end; //while rep do
-
 
 end;
 
@@ -85,7 +84,8 @@ end;
 procedure nouvellePartie();
 
 var
-  dormi : boolean;
+  joueur : personnage; //record du joueur
+  dormi : boolean; //boolean indiquant si le joueur a fait une chasse depuis sa
 
 begin
   dormi := FALSE;
@@ -98,16 +98,13 @@ end;
 procedure menuGeneral();
 
 var
-  choixU : integer;
-  sauvegarde : boolean;
+  choixU : boolean;
 
 begin
-  choixU := menuLancementAffichage(sauvegarde);
+  choixU := menuGeneralAffichage; //TRUE pour jouer / FALSE pour quitter
 
-  case choixU of
-  1 : nouvellePartie();
-  2 : ville(joueur);
-  end;
+  if choixU then
+  nouvellePartie;
 end;
 
 end.
