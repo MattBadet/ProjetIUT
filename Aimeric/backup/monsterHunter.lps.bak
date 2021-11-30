@@ -8,31 +8,28 @@
       <Unit0>
         <Filename Value="monsterHunter.lpr"/>
         <IsPartOfProject Value="True"/>
-        <CursorPos X="10" Y="6"/>
-        <UsageCount Value="65"/>
+        <CursorPos Y="3"/>
+        <UsageCount Value="68"/>
         <Loaded Value="True"/>
       </Unit0>
       <Unit1>
         <Filename Value="combatunit.pas"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="combatUnit"/>
-        <IsVisibleTab Value="True"/>
         <EditorIndex Value="2"/>
-        <TopLine Value="85"/>
-        <CursorPos X="29" Y="136"/>
-        <FoldState Value=" TC7J4 T3I0N122J"/>
-        <UsageCount Value="56"/>
+        <CursorPos X="44" Y="190"/>
+        <FoldState Value=" T3J0N3 pifjX083~"/>
+        <UsageCount Value="59"/>
         <Loaded Value="True"/>
       </Unit1>
       <Unit2>
         <Filename Value="menuunit.pas"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="menuUnit"/>
+        <IsVisibleTab Value="True"/>
         <EditorIndex Value="1"/>
-        <TopLine Value="81"/>
-        <CursorPos X="15" Y="9"/>
-        <FoldState Value=" T3B0d6"/>
-        <UsageCount Value="51"/>
+        <CursorPos X="16" Y="7"/>
+        <UsageCount Value="54"/>
         <Loaded Value="True"/>
       </Unit2>
       <Unit3>
