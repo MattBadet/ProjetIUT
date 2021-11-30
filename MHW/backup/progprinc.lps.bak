@@ -8,17 +8,17 @@
       <Unit0>
         <Filename Value="progprinc.lpr"/>
         <IsPartOfProject Value="True"/>
-        <IsVisibleTab Value="True"/>
-        <CursorPos X="32" Y="18"/>
+        <CursorPos X="33" Y="16"/>
         <UsageCount Value="23"/>
         <Loaded Value="True"/>
       </Unit0>
       <Unit1>
         <Filename Value="forge.pas"/>
         <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
         <EditorIndex Value="1"/>
         <TopLine Value="197"/>
-        <CursorPos X="8" Y="231"/>
+        <CursorPos X="14" Y="227"/>
         <UsageCount Value="23"/>
         <Loaded Value="True"/>
       </Unit1>
