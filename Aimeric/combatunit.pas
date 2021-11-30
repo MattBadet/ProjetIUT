@@ -94,41 +94,47 @@ begin
 
   roll := random(10) + 1;
     //génération cuivre
-    if roll <= 5 then
+    if (roll <= 5) then
     joueur.materiaux[1] := joueur.materiaux[1] + 2;
-    if roll = 6 OR roll = 7 then
+    if (roll = 6) OR (roll = 7) then
     joueur.materiaux[1] := joueur.materiaux[1] + 1;
-    if roll = 8 then
+    if (roll = 8) then
     joueur.materiaux[1] := joueur.materiaux[1] + 3;
 
+  roll := random(10) + 1;
     //génération morceau demon
-    if roll = 1 AND monstre.spe = demon then
+    if (roll = 1) AND (monstre.spe = demon) AND (calculLvl(joueur.xp) >= 5) then
     joueur.materiaux[5] := joueur.materiaux[5] + 1;
 
   roll := random(20) + 1;
     //génération fer
-    if roll < 5 then
-    joueur.materiaux[1] := joueur.materiaux[1] + 2;
-    if roll = 6 OR roll = 7 then
-    joueur.materiaux[1] := joueur.materiaux[1] + 1;
-    if roll = 8 then
-    joueur.materiaux[1] := joueur.materiaux[1] + 3;
+    if roll <= 6 then
+    joueur.materiaux[2] := joueur.materiaux[2] + 2;
+    if roll = 7 OR roll = 8 then
+    joueur.materiaux[2] := joueur.materiaux[2] + 1;
+    if roll = 9 then
+    joueur.materiaux[2] := joueur.materiaux[2] + 3;
 
+  roll := random(20) + 1;
     //génération acier
-    if roll < 5 then
-    joueur.materiaux[1] := joueur.materiaux[1] + 2;
-    if roll = 6 OR roll = 7 then
-    joueur.materiaux[1] := joueur.materiaux[1] + 1;
-    if roll = 8 then
-    joueur.materiaux[1] := joueur.materiaux[1] + 3;
+    if (calculLvl(joueur.xp) >= 3) then
+    begin
+      if roll <= 4 then
+      joueur.materiaux[3] := joueur.materiaux[3] + 2;
+      if roll = 5 OR roll = 6 then
+      joueur.materiaux[3] := joueur.materiaux[3] + 1;
+      if roll = 7 then
+      joueur.materiaux[3] := joueur.materiaux[3] + 3;
+    end;
 
+  roll := random(20) + 1;
     //génération ecailles
-    if monstre.spe = dragon then
+    if (monstre.spe = dragon) AND (calculLvl(joueur.xp) >= 5) then
     begin
       if roll <= 2 then
-      joueur.materiaux[1] := joueur.materiaux[1] + 2;
+      joueur.materiaux[4] := joueur.materiaux[4] + 2;
       if roll = 3 then
-      joueur.materiaux[1] := joueur.materiaux[1] + 1;
+      joueur.materiaux[4] := joueur.materiaux[4] + 1;
     end;
 
   //génération or
