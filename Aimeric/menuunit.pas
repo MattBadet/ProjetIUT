@@ -8,6 +8,32 @@ procedure menuGeneral();
 
 implementation
 
+//calcul du lvl du joueur en fonction de son xp
+function calculLvl(joueur: personnage): integer;
+
+begin
+  if (joueur.xp < 100) then
+  result := 1;
+  if (joueur.xp => 100) AND (joueur.xp < 300) then
+  result := 2;
+  if (joueur.xp => 300) AND (joueur.xp < 500) then
+  result := 3;
+  if (joueur.xp => 500) AND (joueur.xp < 800) then
+  result := 4;
+  if (joueur.xp => 800) AND (joueur.xp < 1200) then
+  result := 5;
+  if (joueur.xp => 1200) AND (joueur.xp < 1700) then
+  result := 6;
+  if (joueur.xp => 1700) AND (joueur.xp < 2300) then
+  result := 7;
+  if (joueur.xp => 2300) AND (joueur.xp < 3000) then
+  result := 8;
+  if (joueur.xp => 3000) AND (joueur.xp < 4000) then
+  result := 9;
+  if (joueur.xp > 4000) then
+  result := 10;
+end;
+
 //chambre : inventaire de perso et repos
 procedure chambre(joueur : perso; dormi : boolean);
 

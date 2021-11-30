@@ -9,7 +9,7 @@
         <Filename Value="monsterHunter.lpr"/>
         <IsPartOfProject Value="True"/>
         <CursorPos X="10" Y="6"/>
-        <UsageCount Value="60"/>
+        <UsageCount Value="62"/>
         <Loaded Value="True"/>
       </Unit0>
       <Unit1>
@@ -18,10 +18,10 @@
         <UnitName Value="combatUnit"/>
         <IsVisibleTab Value="True"/>
         <EditorIndex Value="2"/>
-        <TopLine Value="111"/>
-        <CursorPos X="22" Y="122"/>
-        <FoldState Value=" TC7J4 T3i30d1t"/>
-        <UsageCount Value="51"/>
+        <TopLine Value="126"/>
+        <CursorPos X="13" Y="133"/>
+        <FoldState Value=" TC7J4 T3iG0c1("/>
+        <UsageCount Value="53"/>
         <Loaded Value="True"/>
       </Unit1>
       <Unit2>
@@ -29,10 +29,9 @@
         <IsPartOfProject Value="True"/>
         <UnitName Value="menuUnit"/>
         <EditorIndex Value="1"/>
-        <TopLine Value="78"/>
-        <CursorPos X="27" Y="94"/>
-        <FoldState Value=" T3B0d6"/>
-        <UsageCount Value="46"/>
+        <TopLine Value="10"/>
+        <CursorPos Y="11"/>
+        <UsageCount Value="48"/>
         <Loaded Value="True"/>
       </Unit2>
       <Unit3>
@@ -46,122 +45,122 @@
     <JumpHistory Count="30" HistoryIndex="29">
       <Position1>
         <Filename Value="monsterHunter.lpr"/>
-        <Caret Line="3" Column="10"/>
+        <Caret Line="4"/>
       </Position1>
       <Position2>
-        <Filename Value="monsterHunter.lpr"/>
-        <Caret Line="4"/>
+        <Filename Value="combatunit.pas"/>
+        <Caret Line="16" Column="62"/>
       </Position2>
       <Position3>
         <Filename Value="combatunit.pas"/>
-        <Caret Line="16" Column="62"/>
+        <Caret Line="7" Column="46"/>
       </Position3>
       <Position4>
         <Filename Value="combatunit.pas"/>
-        <Caret Line="7" Column="46"/>
+        <Caret Line="25" Column="7" TopLine="15"/>
       </Position4>
       <Position5>
         <Filename Value="combatunit.pas"/>
-        <Caret Line="25" Column="7" TopLine="15"/>
+        <Caret Line="27" Column="45" TopLine="16"/>
       </Position5>
       <Position6>
         <Filename Value="combatunit.pas"/>
-        <Caret Line="27" Column="45" TopLine="16"/>
+        <Caret Line="18" Column="59" TopLine="16"/>
       </Position6>
       <Position7>
         <Filename Value="combatunit.pas"/>
-        <Caret Line="18" Column="59" TopLine="16"/>
+        <Caret Line="51" Column="44" TopLine="40"/>
       </Position7>
       <Position8>
         <Filename Value="combatunit.pas"/>
-        <Caret Line="51" Column="44" TopLine="40"/>
+        <Caret Line="54" Column="64" TopLine="40"/>
       </Position8>
       <Position9>
         <Filename Value="combatunit.pas"/>
-        <Caret Line="54" Column="64" TopLine="40"/>
+        <Caret Line="58" Column="7" TopLine="45"/>
       </Position9>
       <Position10>
         <Filename Value="combatunit.pas"/>
-        <Caret Line="58" Column="7" TopLine="45"/>
+        <Caret Line="64" Column="38" TopLine="58"/>
       </Position10>
       <Position11>
-        <Filename Value="combatunit.pas"/>
-        <Caret Line="64" Column="38" TopLine="58"/>
+        <Filename Value="monsterHunter.lpr"/>
+        <Caret Line="4"/>
       </Position11>
       <Position12>
         <Filename Value="monsterHunter.lpr"/>
-        <Caret Line="4"/>
+        <Caret Line="17" Column="13"/>
       </Position12>
       <Position13>
         <Filename Value="monsterHunter.lpr"/>
-        <Caret Line="17" Column="13"/>
+        <Caret Line="14" Column="18"/>
       </Position13>
       <Position14>
         <Filename Value="monsterHunter.lpr"/>
-        <Caret Line="14" Column="18"/>
+        <Caret Line="16" Column="47"/>
       </Position14>
       <Position15>
         <Filename Value="monsterHunter.lpr"/>
-        <Caret Line="16" Column="47"/>
+        <Caret Line="5" Column="15"/>
       </Position15>
       <Position16>
-        <Filename Value="monsterHunter.lpr"/>
-        <Caret Line="5" Column="15"/>
+        <Filename Value="combatunit.pas"/>
       </Position16>
       <Position17>
-        <Filename Value="combatunit.pas"/>
+        <Filename Value="monsterHunter.lpr"/>
+        <Caret Line="5" Column="15"/>
       </Position17>
       <Position18>
         <Filename Value="monsterHunter.lpr"/>
-        <Caret Line="5" Column="15"/>
+        <Caret Line="45" Column="21" TopLine="34"/>
       </Position18>
       <Position19>
         <Filename Value="monsterHunter.lpr"/>
-        <Caret Line="45" Column="21" TopLine="34"/>
+        <Caret Line="15" Column="29" TopLine="4"/>
       </Position19>
       <Position20>
         <Filename Value="monsterHunter.lpr"/>
-        <Caret Line="15" Column="29" TopLine="4"/>
+        <Caret Line="19" Column="34" TopLine="4"/>
       </Position20>
       <Position21>
         <Filename Value="monsterHunter.lpr"/>
-        <Caret Line="19" Column="34" TopLine="4"/>
+        <Caret Line="20" Column="27" TopLine="4"/>
       </Position21>
       <Position22>
-        <Filename Value="monsterHunter.lpr"/>
-        <Caret Line="20" Column="27" TopLine="4"/>
+        <Filename Value="menuunit.pas"/>
+        <Caret Line="20" Column="25" TopLine="4"/>
       </Position22>
       <Position23>
         <Filename Value="menuunit.pas"/>
-        <Caret Line="20" Column="25" TopLine="4"/>
+        <Caret Line="17" Column="15"/>
       </Position23>
       <Position24>
         <Filename Value="menuunit.pas"/>
-        <Caret Line="17" Column="15"/>
+        <Caret Line="18" Column="17" TopLine="18"/>
       </Position24>
       <Position25>
         <Filename Value="menuunit.pas"/>
-        <Caret Line="18" Column="17" TopLine="18"/>
+        <Caret Line="14" Column="18" TopLine="6"/>
       </Position25>
       <Position26>
-        <Filename Value="menuunit.pas"/>
-        <Caret Line="14" Column="18" TopLine="6"/>
+        <Filename Value="monsterHunter.lpr"/>
+        <Caret Line="14" Column="40"/>
       </Position26>
       <Position27>
         <Filename Value="monsterHunter.lpr"/>
-        <Caret Line="14" Column="40"/>
+        <Caret Line="18" Column="23"/>
       </Position27>
       <Position28>
         <Filename Value="monsterHunter.lpr"/>
-        <Caret Line="18" Column="23"/>
+        <Caret Line="4" Column="25"/>
       </Position28>
       <Position29>
-        <Filename Value="monsterHunter.lpr"/>
-        <Caret Line="4" Column="25"/>
+        <Filename Value="menuunit.pas"/>
+        <Caret Line="52" Column="36"/>
       </Position29>
       <Position30>
         <Filename Value="menuunit.pas"/>
-        <Caret Line="52" Column="36"/>
+        <Caret Line="4" Column="17"/>
       </Position30>
     </JumpHistory>
   </ProjectSession>
