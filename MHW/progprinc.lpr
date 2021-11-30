@@ -19,6 +19,12 @@ begin
   writeln('=========================================');
   ajouterinvpotion(petitepotion);
   afficheinv();
+  writeln('=========================================');
+  ajouterinvobjet(fer);
+  ajouterinvobjet(fer);
+  ajouterinvobjet(fer);
+
+  afficheinv();
   readln;
 end.
 
