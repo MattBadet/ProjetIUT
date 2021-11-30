@@ -94,7 +94,7 @@ begin
 
   roll := random(10) + 1;
     //génération cuivre
-    if roll < 5 then
+    if roll <= 5 then
     joueur.materiaux[1] := joueur.materiaux[1] + 2;
     if roll = 6 OR roll = 7 then
     joueur.materiaux[1] := joueur.materiaux[1] + 1;
@@ -125,9 +125,9 @@ begin
     //génération ecailles
     if monstre.spe = dragon then
     begin
-      if roll < 5 then
+      if roll <= 2 then
       joueur.materiaux[1] := joueur.materiaux[1] + 2;
-      if roll = 6 OR roll = 7 then
+      if roll = 3 then
       joueur.materiaux[1] := joueur.materiaux[1] + 1;
     end;
 
