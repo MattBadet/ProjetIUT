@@ -41,6 +41,7 @@ begin
   result := 10;
 end;
 
+//donne le bon monstre en fonction de son id
 function choixMonstre(nb : integer): monstre;
 
 const
@@ -72,7 +73,6 @@ begin
   3:result := dragonElectrique;
   4:result := phoenix;
   end;
-
 end;
 
 procedure loose(joueur : personnage): personnage;
@@ -80,13 +80,13 @@ procedure loose(joueur : personnage): personnage;
 begin
   joueur.vieActu := (joueur.vieBase div 5);
   result := joueur;
-  affichageMort;
+  affichageLoose;
 end;
 
 procedure win();
 
 begin
-
+  afficherWin;
 end;
 
 //Tour du joueur
@@ -162,7 +162,7 @@ var
 begin
   randomize;
   vieU := joueur.defGlobal;
-  monstreActu := choixMonstre(random(4)); //choix aléatoire du monstre
+  monstreActu := choixMonstre((random(4)+1)); //choix aléatoire du monstre
   vieMi := ((monstreActu.vieBase * joueur.lvl)div 2);
   vieMd := vieMi;
   arme := joueur.atkGlobal;
@@ -186,9 +186,9 @@ begin
   end; //while (vieU > 0) AND (vieM > 0) do
 
   if (vieU > 0) then
-  joueur := win
+  joueur := win(joueur, monstreActu)
   else
-  joueur := loose;
+  joueur := loose(joueur);
 
   result := joueur;
 end;

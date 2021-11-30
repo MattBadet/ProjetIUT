@@ -18,8 +18,8 @@
         <UnitName Value="combatUnit"/>
         <IsVisibleTab Value="True"/>
         <EditorIndex Value="2"/>
-        <TopLine Value="35"/>
-        <CursorPos X="3" Y="53"/>
+        <TopLine Value="126"/>
+        <CursorPos X="13" Y="133"/>
         <FoldState Value=" TC7J4 T3iG0c1("/>
         <UsageCount Value="53"/>
         <Loaded Value="True"/>
@@ -31,7 +31,6 @@
         <EditorIndex Value="1"/>
         <TopLine Value="10"/>
         <CursorPos Y="11"/>
-        <FoldState Value=" T3D0d_"/>
         <UsageCount Value="48"/>
         <Loaded Value="True"/>
       </Unit2>

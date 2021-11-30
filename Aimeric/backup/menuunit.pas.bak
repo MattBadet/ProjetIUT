@@ -8,6 +8,7 @@ procedure menuGeneral();
 
 implementation
 
+//calcul du lvl du joueur en fonction de son xp
 function calculLvl(joueur: personnage): integer;
 
 begin
