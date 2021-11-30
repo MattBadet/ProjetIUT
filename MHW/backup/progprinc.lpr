@@ -1,6 +1,6 @@
 program progprinc;
 
-uses sysutils, forge, inventaire, utilities;
+uses sysutils, forge, inventaire, utilities, cantine;
 
 begin
   initialisationinv();
