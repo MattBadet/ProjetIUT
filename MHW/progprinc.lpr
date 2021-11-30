@@ -1,6 +1,6 @@
 program progprinc;
 
-uses sysutils, forge;
+uses sysutils, forge, inventaire, utilities, cantine;
 
 begin
   initialisationinv();
@@ -18,6 +18,12 @@ begin
   afficheinv();
   writeln('=========================================');
   ajouterinvpotion(petitepotion);
+  afficheinv();
+  writeln('=========================================');
+  ajouterinvobjet(fer);
+  ajouterinvobjet(fer);
+  ajouterinvobjet(fer);
+
   afficheinv();
   readln;
 end.

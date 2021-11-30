@@ -1,20 +1,29 @@
 program progprinc;
 
-uses sysutils, forge;
-
-var
-  choix,i:integer;
+uses sysutils, forge, inventaire, utilities;
 
 begin
   initialisationinv();
   ajouterinvobjet(fer);
-  ajouterinvobjet(fer);
   ajouterinvobjet(reste);
   ajouterinvobjet(reste);
   afficheinv();
-  writeln;
   createepee(epeedemo);
-  writeln;
+  writeln('=========================================');
+  afficheinv();
+  writeln('=========================================');
+  ajouterinvbombe(bombepetite);
+  ajouterinvbombe(bombepetite);
+  ajouterinvbombe(bombepetite);
+  afficheinv();
+  writeln('=========================================');
+  ajouterinvpotion(petitepotion);
+  afficheinv();
+  writeln('=========================================');
+  ajouterinvobjet(fer);
+  ajouterinvobjet(fer);
+  ajouterinvobjet(fer);
+
   afficheinv();
   readln;
 end.
