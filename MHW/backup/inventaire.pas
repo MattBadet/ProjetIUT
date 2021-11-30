@@ -5,7 +5,7 @@ unit inventaire;
 interface
 
 uses
-  Classes, SysUtils, objet;
+  Classes, SysUtils, utilities;
 
 procedure initialisationinv();
 procedure ajouterinvobjet(obj:objet);
