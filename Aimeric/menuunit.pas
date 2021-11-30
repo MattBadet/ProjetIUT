@@ -4,6 +4,8 @@ unit menuUnit;
 
 interface
 
+uses combatUnit;
+
 procedure menuGeneral();
 
 implementation
