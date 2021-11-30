@@ -83,10 +83,14 @@ begin
   affichageLoose;
 end;
 
-procedure win();
+procedure win(joueur : personnage; monstreActu : monstre; vieMi : integer);
 
 begin
   afficherWin;
+
+  joueur.xp := joueur.xp + (vieMi div 10);
+  joueur.materiaux[6] := joueur.materiaux[6] + (vieMi div 10);
+  random(
 end;
 
 //Tour du joueur
@@ -186,7 +190,7 @@ begin
   end; //while (vieU > 0) AND (vieM > 0) do
 
   if (vieU > 0) then
-  joueur := win(joueur, monstreActu)
+  joueur := win(joueur, monstreActu, vieMi)
   else
   joueur := loose(joueur);
 
