@@ -9,7 +9,7 @@
         <Filename Value="monsterHunter.lpr"/>
         <IsPartOfProject Value="True"/>
         <CursorPos X="10" Y="6"/>
-        <UsageCount Value="63"/>
+        <UsageCount Value="65"/>
         <Loaded Value="True"/>
       </Unit0>
       <Unit1>
@@ -18,10 +18,10 @@
         <UnitName Value="combatUnit"/>
         <IsVisibleTab Value="True"/>
         <EditorIndex Value="2"/>
-        <TopLine Value="172"/>
-        <CursorPos X="95" Y="177"/>
+        <TopLine Value="85"/>
+        <CursorPos X="29" Y="136"/>
         <FoldState Value=" TC7J4 T3I0N122J"/>
-        <UsageCount Value="54"/>
+        <UsageCount Value="56"/>
         <Loaded Value="True"/>
       </Unit1>
       <Unit2>
@@ -29,10 +29,10 @@
         <IsPartOfProject Value="True"/>
         <UnitName Value="menuUnit"/>
         <EditorIndex Value="1"/>
-        <TopLine Value="8"/>
+        <TopLine Value="81"/>
         <CursorPos X="15" Y="9"/>
         <FoldState Value=" T3B0d6"/>
-        <UsageCount Value="49"/>
+        <UsageCount Value="51"/>
         <Loaded Value="True"/>
       </Unit2>
       <Unit3>
