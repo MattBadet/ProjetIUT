@@ -4,6 +4,8 @@ unit menuUnit;
 
 interface
 
+uses combatUnit;
+
 procedure menuGeneral();
 
 implementation
@@ -53,8 +55,11 @@ end;
 //marchand : achat d'objets
 procedure marchand();
 
-begin
+var
+  choixU :
 
+begin
+  afficheMarchand;
 end;
 
 //Ville : choix entre les batiments et le combat

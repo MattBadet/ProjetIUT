@@ -55,8 +55,13 @@ end;
 //marchand : achat d'objets
 procedure marchand();
 
-begin
+var
+  choixU : integer;
 
+begin
+  choixU := afficheMarchand;
+
+  if
 end;
 
 //Ville : choix entre les batiments et le combat
