@@ -4,41 +4,89 @@
     <PathDelim Value="\"/>
     <Version Value="10"/>
     <BuildModes Active="Default"/>
-    <Units Count="4">
+    <Units Count="10">
       <Unit0>
         <Filename Value="monsterHunter.lpr"/>
         <IsPartOfProject Value="True"/>
-        <CursorPos X="7"/>
-        <UsageCount Value="74"/>
+        <CursorPos X="9" Y="5"/>
+        <UsageCount Value="75"/>
         <Loaded Value="True"/>
       </Unit0>
       <Unit1>
         <Filename Value="combatunit.pas"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="combatUnit"/>
-        <IsVisibleTab Value="True"/>
         <EditorIndex Value="2"/>
-        <CursorPos X="25" Y="14"/>
+        <TopLine Value="44"/>
+        <CursorPos X="11" Y="19"/>
         <FoldState Value=" T3J0N3 pj4jd083%"/>
-        <UsageCount Value="65"/>
+        <UsageCount Value="66"/>
         <Loaded Value="True"/>
       </Unit1>
       <Unit2>
         <Filename Value="menuunit.pas"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="menuUnit"/>
+        <IsVisibleTab Value="True"/>
         <EditorIndex Value="1"/>
-        <CursorPos X="23" Y="56"/>
-        <UsageCount Value="60"/>
+        <TopLine Value="54"/>
+        <CursorPos X="18" Y="64"/>
+        <FoldState Value=" T3D0d_"/>
+        <UsageCount Value="61"/>
         <Loaded Value="True"/>
       </Unit2>
       <Unit3>
+        <Filename Value="utilities.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="10" Y="13"/>
+        <UsageCount Value="21"/>
+      </Unit3>
+      <Unit4>
         <Filename Value="C:\GestionEcran.pas"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="3"/>
         <CursorPos X="25" Y="13"/>
         <UsageCount Value="7"/>
-      </Unit3>
+      </Unit4>
+      <Unit5>
+        <Filename Value="utilities.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="3"/>
+        <TopLine Value="152"/>
+        <CursorPos X="2" Y="293"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="inventaire.pas"/>
+        <EditorIndex Value="4"/>
+        <CursorPos X="15" Y="11"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="cantine.pas"/>
+        <EditorIndex Value="5"/>
+        <TopLine Value="12"/>
+        <CursorPos X="24" Y="20"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="forge.pas"/>
+        <EditorIndex Value="6"/>
+        <CursorPos X="9" Y="7"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit8>
+      <Unit9>
+        <Filename Value="perso.pas"/>
+        <EditorIndex Value="7"/>
+        <CursorPos X="18" Y="9"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit9>
     </Units>
     <JumpHistory Count="30" HistoryIndex="29">
       <Position1>

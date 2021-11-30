@@ -2,7 +2,7 @@
 <CONFIG>
   <ProjectSession>
     <PathDelim Value="\"/>
-    <Version Value="11"/>
+    <Version Value="10"/>
     <BuildModes Active="Default"/>
     <Units Count="7">
       <Unit0>
@@ -45,15 +45,15 @@
       <Unit4>
         <Filename Value="utilities.pas"/>
         <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
         <EditorIndex Value="4"/>
-        <CursorPos X="25" Y="18"/>
+        <CursorPos X="11" Y="4"/>
         <UsageCount Value="23"/>
         <Loaded Value="True"/>
       </Unit4>
       <Unit5>
         <Filename Value="cantine.pas"/>
         <IsPartOfProject Value="True"/>
-        <IsVisibleTab Value="True"/>
         <EditorIndex Value="2"/>
         <TopLine Value="29"/>
         <CursorPos X="24" Y="43"/>
@@ -183,9 +183,5 @@
         <Caret Line="217" Column="33" TopLine="200"/>
       </Position28>
     </JumpHistory>
-    <RunParams>
-      <FormatVersion Value="2"/>
-      <Modes Count="0" ActiveMode=""/>
-    </RunParams>
   </ProjectSession>
 </CONFIG>

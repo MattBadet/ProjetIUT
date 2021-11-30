@@ -4,7 +4,7 @@ unit menuUnit;
 
 interface
 
-uses combatUnit;
+uses combatUnit, utilities, inventaire, cantine, forge, perso;
 
 procedure menuGeneral();
 
@@ -61,7 +61,14 @@ var
 begin
   choixU := afficheMarchand;
 
-  if
+  case choixU of
+  1:ajouterinvobjet(petitepotion);
+  2:ajouterinvobjet(moyennepotion);
+  3:ajouterinvobjet(grandepotion);
+  4:ajouterinvobjet(bombepetite);
+  5:ajouterinvobjet(bombemoyenne);
+  end;
+
 end;
 
 //Ville : choix entre les batiments et le combat
@@ -115,4 +122,3 @@ begin
 end;
 
 end.
-
