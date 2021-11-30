@@ -131,6 +131,11 @@ begin
     vie(210,250,105,28);
 end;
 
+procedure precombat(); // ecran de liaison entre la ville et le combat
+begin
+
+end;
+
 procedure inventaire(); // afffichage de l'inventaire
 begin
     effacerEcran();

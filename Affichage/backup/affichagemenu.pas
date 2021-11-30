@@ -268,7 +268,7 @@ begin
     write('Objet Marchand');
     // test statistique objet
     affichage(50,8,'epee');
-    dessinerCadreXY(44,26,144,32,simple,white,black);
+    dessinerCadreXY(44,25,144,32,simple,white,black);
 end;
 
 procedure menuPartie(); // Affichage du menu d'une partie

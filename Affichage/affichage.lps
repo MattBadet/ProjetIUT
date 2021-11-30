@@ -9,7 +9,7 @@
         <Filename Value="affichage.lpr"/>
         <IsPartOfProject Value="True"/>
         <CursorPos X="16" Y="26"/>
-        <UsageCount Value="58"/>
+        <UsageCount Value="64"/>
         <Loaded Value="True"/>
       </Unit0>
       <Unit1>
@@ -19,7 +19,7 @@
         <EditorIndex Value="-1"/>
         <TopLine Value="10"/>
         <CursorPos X="18" Y="98"/>
-        <UsageCount Value="55"/>
+        <UsageCount Value="61"/>
       </Unit1>
       <Unit2>
         <Filename Value="..\test\mhnwaffichage.pas"/>
@@ -28,14 +28,14 @@
         <EditorIndex Value="-1"/>
         <TopLine Value="103"/>
         <CursorPos X="5" Y="130"/>
-        <UsageCount Value="53"/>
+        <UsageCount Value="59"/>
       </Unit2>
       <Unit3>
         <Filename Value="..\test\menu.pas"/>
         <IsPartOfProject Value="True"/>
         <EditorIndex Value="-1"/>
         <CursorPos X="4" Y="10"/>
-        <UsageCount Value="53"/>
+        <UsageCount Value="59"/>
       </Unit3>
       <Unit4>
         <Filename Value="..\test\affichageobjet.pas"/>
@@ -45,7 +45,7 @@
         <TopLine Value="122"/>
         <CursorPos X="42" Y="123"/>
         <FoldState Value=" T3M0M313y"/>
-        <UsageCount Value="40"/>
+        <UsageCount Value="46"/>
       </Unit4>
       <Unit5>
         <Filename Value="..\test\affichagemenu.pas"/>
@@ -53,29 +53,29 @@
         <EditorIndex Value="-1"/>
         <TopLine Value="103"/>
         <CursorPos X="10" Y="130"/>
-        <UsageCount Value="35"/>
+        <UsageCount Value="41"/>
       </Unit5>
       <Unit6>
         <Filename Value="E:\test\GestionEcran.pas"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="122"/>
         <CursorPos X="32" Y="132"/>
-        <UsageCount Value="10"/>
+        <UsageCount Value="9"/>
       </Unit6>
       <Unit7>
         <Filename Value="..\test\GestionEcran.pas"/>
         <EditorIndex Value="-1"/>
         <CursorPos X="15" Y="14"/>
-        <UsageCount Value="19"/>
+        <UsageCount Value="18"/>
       </Unit7>
       <Unit8>
         <Filename Value="affichagemenu.pas"/>
         <IsVisibleTab Value="True"/>
         <EditorIndex Value="1"/>
-        <TopLine Value="248"/>
-        <CursorPos X="26" Y="271"/>
-        <FoldState Value=" T3N0d4 pjCkI07214x"/>
-        <UsageCount Value="17"/>
+        <TopLine Value="24"/>
+        <CursorPos X="5" Y="136"/>
+        <FoldState Value=" T3N0d313 piblT0C4 pjCjY0Y."/>
+        <UsageCount Value="21"/>
         <Loaded Value="True"/>
       </Unit8>
       <Unit9>
@@ -83,21 +83,21 @@
         <UnitName Value="affichageObjet"/>
         <EditorIndex Value="2"/>
         <CursorPos X="94" Y="2"/>
-        <UsageCount Value="17"/>
+        <UsageCount Value="21"/>
         <Loaded Value="True"/>
       </Unit9>
       <Unit10>
         <Filename Value="GestionEcran.pas"/>
         <EditorIndex Value="3"/>
         <CursorPos X="36"/>
-        <UsageCount Value="17"/>
+        <UsageCount Value="21"/>
         <Loaded Value="True"/>
       </Unit10>
       <Unit11>
         <Filename Value="crtperso.pas"/>
         <UnitName Value="crtPerso"/>
         <EditorIndex Value="4"/>
-        <UsageCount Value="10"/>
+        <UsageCount Value="14"/>
         <Loaded Value="True"/>
       </Unit11>
     </Units>
