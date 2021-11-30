@@ -34,7 +34,8 @@ type
     nom:string;
     desc:string;
     partie:string;
-    def:int;
+    def:integer;
+    material:string;
   end;
 
 
@@ -59,6 +60,7 @@ const
               desc:'null';
               partie:'null';
               def:0;
+              material:'null';
   );
 //CUIRE
   casquecuire: armure = (
@@ -66,24 +68,28 @@ const
                desc:'à mettre sur la tête';
                partie:'casque';
                def:150;
+               material:'cuire';
   );
   plastroncuire: armure = (
                nom:'plastron en cuire';
                desc:'à mettre sur le haut du corps';
                partie:'plastron';
                def:5;
+               material:'cuire';
   );
   jambierecuire: armure = (
                nom:'jambiere en cuire';
                desc:'à mettre sur le bas du corps';
                partie:'jambiere';
                def:150;
+               material:'cuire';
   );
   bottescuire: armure = (
                nom:'bottes en cuire';
                desc:'à mettre sur les pieds';
                partie:'bottes';
                def:150;
+               material:'cuire';
   );
 //FER
   casquefer: armure = (
@@ -91,30 +97,35 @@ const
                desc:'à mettre sur la tête';
                partie:'casque';
                def:250;
+               material:'fer';
   );
   plastronfer: armure = (
                nom:'plastron en fer';
                desc:'à mettre sur le haut du corps';
                partie:'plastron';
                def:250;
+               material:'fer';
   );
   jambierefer: armure = (
                nom:'jambiere en fer';
                desc:'à mettre sur le bas du corps';
                partie:'jambiere';
                def:250;
+               material:'fer';
   );
   bottesfer: armure = (
                nom:'bottes en fer';
                desc:'à mettre sur les pieds';
                partie:'bottes';
                def:250;
+               material:'fer';
   );
   bouclierfer: armure = (
                nom:'bouclier en fer';
                desc:'pour se protéger';
                partie:'bouclier';
                def:250
+               material:'fer';
   );
 //ACIER
 casqueacier: armure = (
@@ -122,30 +133,35 @@ casqueacier: armure = (
                desc:'à mettre sur la tête';
                partie:'casque';
                def:15;
+               material:'acier';
   );
   plastronacier: armure = (
                nom:'plastron en acier';
                desc:'à mettre sur le haut du corps';
                partie:'plastron';
                def:15;
+               material:'acier';
   );
   jambiereacier: armure = (
                nom:'jambiere en acier';
                desc:'à mettre sur le bas du corps';
                partie:'jambiere';
                def:15;
+               material:'acier';
   );
   bottesacier: armure = (
                nom:'bottes en acier';
                desc:'à mettre sur les pieds';
                partie:'bottes';
                def:15;
+               material:'acier';
   );
   bouclieracier: armure = (
                nom:'bouclier en fer';
                desc:'pour se protéger';
                partie:'bouclier';
                def:15;
+               material:'acier';
   );
 //ECAILLE DE DRAGON
 casquescale: armure = (
@@ -153,30 +169,35 @@ casquescale: armure = (
                desc:'à mettre sur la tête';
                partie:'casque';
                def:10;
+               material:'scale';
   );
   plastronscale: armure = (
                nom:'plastron en écaille de dragon';
                desc:'à mettre sur le haut du corps';
                partie:'plastron';
                def:10;
+               material:'scale';
   );
   jambierescale: armure = (
                nom:'jambiere en écaille de dragon';
                desc:'à mettre sur le bas du corps';
                partie:'jambiere';
                def:10;
+               material:'scale';
   );
   bottesscale: armure = (
                nom:'bottes en écaille de dragon';
                desc:'à mettre sur les pieds';
                partie:'bottes';
                def:10;
+               material:'scale';
   );
   bouclierscale: armure = (
                nom:'bouclier en écaille de dragon';
                desc:'pour se protéger';
                partie:'bouclier';
-               def:10
+               def:10;
+               material:'scale';
   );
 
   nullbombe: bombe = (
@@ -392,6 +413,42 @@ begin
 end;
 
 procedure createepee(epe:arme);
+var
+  reussie:Boolean;
+  i,comptfer:integer;
+begin
+  comptfer:=0;
+  reussie:=True;
+  i:=1;
+  while comptfer <> 2 do
+  begin
+    if (invobjet[i].nom = epe.material) then
+    begin
+       if invobjet[i].stack>=2 then
+       begin
+          invobjet[i].stack:=invobjet[i].stack -2 ;
+          comptfer:=2;
+          if invobjet[i].stack=0 then
+             invobjet[i]:=nullobj;
+       end;
+    end;
+    if (i>length(invobjet)) then
+    begin
+         comptfer:=2;
+         reussie:=False;
+    end
+    else
+        i:=i+1;
+  end;
+  if reussie then
+  begin
+     writeln('Vous avez reussie a fabriquer une epee en ',epe.material);
+     ajouterinvarme(epe);
+  end
+  else
+      writeln('La tentative a echouer');
+end;
+procedure createcasque(epe:armure);
 var
   reussie:Boolean;
   i,comptfer:integer;
