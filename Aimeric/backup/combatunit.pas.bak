@@ -5,10 +5,11 @@ unit combatUnit;
 interface
 
 type
+  race = (normal,dragon,demon);
   monstre = packed record
     id: integer;
     vieBase: integer;
-    dragon: boolean;
+    spe: race;
   end;
 
 function combat(joueur : personnage): personnage;
@@ -48,22 +49,22 @@ const
   griffon: monstre = (
     id:1;
     vieBase:100;
-    dragon:TRUE;
+    spe:normal;
   );
   dragonDesMontagnes: monstre = (
     id:2;
     vieBase:150;
-    dragon:TRUE;
+    spe:dragon;
   );
   dragonElectrique : monstre = (
     id:3;
     vieBase:200;
-    dragon:TRUE;
+    spe:dragon;
   );
   phoenix: monstre = (
     id:4;
     vieBase:250;
-    dragon:FALSE;
+    spe:demon;
   );
 
 begin
@@ -75,7 +76,8 @@ begin
   end;
 end;
 
-procedure loose(joueur : personnage): personnage;
+//mort du personnage
+function loose(joueur : personnage): personnage;
 
 begin
   joueur.vieActu := (joueur.vieBase div 5);
@@ -83,14 +85,67 @@ begin
   affichageLoose;
 end;
 
-procedure win(joueur : personnage; monstreActu : monstre; vieMi : integer);
+//génération des drop en cas de victoire
+function generDrop(joueur : personnage; monstreActu : monstre; vieMi : integer): personnage;
+
+begin
+  //génération xp
+  joueur.xp := joueur.xp + (vieMi div 10);
+
+  roll := random(10) + 1;
+    //génération cuivre
+    if roll < 5 then
+    joueur.materiaux[1] := joueur.materiaux[1] + 2;
+    if roll = 6 OR roll = 7 then
+    joueur.materiaux[1] := joueur.materiaux[1] + 1;
+    if roll = 8 then
+    joueur.materiaux[1] := joueur.materiaux[1] + 3;
+
+    //génération morceau demon
+    if roll = 1 AND monstre.spe = demon then
+    joueur.materiaux[5] := joueur.materiaux[5] + 1;
+
+  roll := random(20) + 1;
+    //génération fer
+    if roll < 5 then
+    joueur.materiaux[1] := joueur.materiaux[1] + 2;
+    if roll = 6 OR roll = 7 then
+    joueur.materiaux[1] := joueur.materiaux[1] + 1;
+    if roll = 8 then
+    joueur.materiaux[1] := joueur.materiaux[1] + 3;
+
+    //génération acier
+    if roll < 5 then
+    joueur.materiaux[1] := joueur.materiaux[1] + 2;
+    if roll = 6 OR roll = 7 then
+    joueur.materiaux[1] := joueur.materiaux[1] + 1;
+    if roll = 8 then
+    joueur.materiaux[1] := joueur.materiaux[1] + 3;
+
+    //génération ecailles
+    if monstre.spe = dragon then
+    begin
+      if roll < 5 then
+      joueur.materiaux[1] := joueur.materiaux[1] + 2;
+      if roll = 6 OR roll = 7 then
+      joueur.materiaux[1] := joueur.materiaux[1] + 1;
+      if roll = 8 then
+      joueur.materiaux[1] := joueur.materiaux[1] + 3;
+    end;
+
+  //génération or
+  joueur.materiaux[6] := joueur.materiaux[6] + (vieMi div 10);
+end;
+
+//le joueur gagne le combat
+function win(joueur : personnage; monstreActu : monstre; vieMi : integer): personnage;
+
+var
+  roll : integer;
 
 begin
   afficherWin;
-
-  joueur.xp := joueur.xp + (vieMi div 10);
-  joueur.materiaux[6]
-  random(
+  result := generDrop(joueur, monstreActu, vieMi);
 end;
 
 //Tour du joueur
