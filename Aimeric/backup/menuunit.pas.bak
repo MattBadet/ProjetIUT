@@ -64,7 +64,7 @@ begin
   case choixU of
   1:ajouterinvobjet(petitepotion);
   2:ajouterinvobjet(moyennepotion);
-  3:ajouterinvobjet(petitepotion);
+  3:ajouterinvobjet(grandepotion);
   4:ajouterinvobjet(bombepetite);
   5:ajouterinvobjet(bombemoyenne);
   end;

@@ -4,6 +4,8 @@ unit combatUnit;
 
 interface
 
+uses utilities, inventaire, cantine, forge, perso;
+
 type
   race = (normal,dragon,demon);
   monstre = packed record
@@ -12,7 +14,7 @@ type
     spe: race;
   end;
 
-function combat(joueur : personnage): personnage;
+function combat(joueur : player): player;
 
 implementation
 
@@ -101,6 +103,7 @@ begin
     if (roll = 8) then
     joueur.materiaux[1] := joueur.materiaux[1] + 3;
 
+  roll := random(10) + 1;
     //génération morceau demon
     if (roll = 1) AND (monstre.spe = demon) AND (calculLvl(joueur.xp) >= 5) then
     joueur.materiaux[5] := joueur.materiaux[5] + 1;

@@ -4,6 +4,8 @@ unit combatUnit;
 
 interface
 
+uses utilities, inventaire, cantine, forge, perso;
+
 type
   race = (normal,dragon,demon);
   monstre = packed record
@@ -12,7 +14,8 @@ type
     spe: race;
   end;
 
-function combat(joueur : personnage): personnage;
+function combat(joueur : player): player;
+function calculLvl(joueur: personnage): integer;h
 
 implementation
 
