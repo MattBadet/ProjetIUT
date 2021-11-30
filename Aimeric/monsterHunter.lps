@@ -8,8 +8,9 @@
       <Unit0>
         <Filename Value="monsterHunter.lpr"/>
         <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
         <CursorPos X="9" Y="5"/>
-        <UsageCount Value="81"/>
+        <UsageCount Value="82"/>
         <Loaded Value="True"/>
       </Unit0>
       <Unit1>
@@ -17,9 +18,9 @@
         <IsPartOfProject Value="True"/>
         <UnitName Value="combatUnit"/>
         <EditorIndex Value="2"/>
-        <TopLine Value="137"/>
-        <CursorPos X="59" Y="144"/>
-        <UsageCount Value="72"/>
+        <TopLine Value="136"/>
+        <CursorPos X="18" Y="154"/>
+        <UsageCount Value="73"/>
         <Loaded Value="True"/>
       </Unit1>
       <Unit2>
@@ -27,9 +28,10 @@
         <IsPartOfProject Value="True"/>
         <UnitName Value="menuUnit"/>
         <EditorIndex Value="1"/>
-        <CursorPos X="24" Y="115"/>
-        <FoldState Value=" T3D0d_"/>
-        <UsageCount Value="67"/>
+        <TopLine Value="4"/>
+        <CursorPos Y="56"/>
+        <FoldState Value=" T3D0d121f"/>
+        <UsageCount Value="68"/>
         <Loaded Value="True"/>
       </Unit2>
       <Unit3>
@@ -38,7 +40,7 @@
         <EditorIndex Value="3"/>
         <TopLine Value="272"/>
         <CursorPos X="45" Y="285"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="27"/>
         <Loaded Value="True"/>
       </Unit3>
       <Unit4>
@@ -58,9 +60,9 @@
       </Unit5>
       <Unit6>
         <Filename Value="cantine.pas"/>
-        <IsVisibleTab Value="True"/>
         <EditorIndex Value="5"/>
-        <CursorPos X="17" Y="8"/>
+        <TopLine Value="37"/>
+        <CursorPos X="3" Y="46"/>
         <UsageCount Value="12"/>
         <Loaded Value="True"/>
       </Unit6>
@@ -88,8 +90,9 @@
       <Unit10>
         <Filename Value="affichagemenu.pas"/>
         <EditorIndex Value="8"/>
-        <TopLine Value="13"/>
-        <CursorPos X="69" Y="18"/>
+        <TopLine Value="9"/>
+        <CursorPos X="32" Y="19"/>
+        <FoldState Value=" T3N0d5 pjFkN073]92jH0X3u"/>
         <UsageCount Value="10"/>
         <Loaded Value="True"/>
       </Unit10>
@@ -236,7 +239,7 @@
       </Position29>
       <Position30>
         <Filename Value="cantine.pas"/>
-        <Caret Line="8" Column="30"/>
+        <Caret Line="8" Column="17"/>
       </Position30>
     </JumpHistory>
   </ProjectSession>

@@ -85,7 +85,7 @@ function loose(joueur : personnage): personnage;
 begin
   joueur.vieActu := (joueur.vieBase div 5);
   result := joueur;
-  affichageLoose;
+  afficheDeadMenu;
 end;
 
 //génération des drop en cas de victoire
@@ -151,7 +151,7 @@ var
   roll : integer;
 
 begin
-  afficherWin;
+  afficheVictoire;
   result := generDrop(joueur, monstreActu, vieMi);
 end;
 

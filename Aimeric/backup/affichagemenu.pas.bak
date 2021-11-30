@@ -342,7 +342,7 @@ begin
     readln(choix);
 end;
 
-procedure afficheVille(); // menu de la ville
+procedure afficheVille(); // menu principal du jeux
 var
   choix:Integer; // contient le choix du menu
 begin

@@ -22,7 +22,7 @@ begin
 
   while rep do
   begin
-    choixU := affichageChambre(); //Récupération du choix de l'utilisateur
+    choixU := afficheChambre(); //Récupération du choix de l'utilisateur
 
     if (choixU = 1) then //Le joueur ouvre l'inventaire
     begin
@@ -78,7 +78,7 @@ var
   choixU : integer; //Le choix de l'utilisateur (qu'es-ce qu'il veut faire)
 
 begin
-  choixU := villeAffichage();
+  choixU := afficheVille();
 
   if choixU = 5 then
   dormi := FALSE;
@@ -104,7 +104,7 @@ var
 begin
   dormi := FALSE;
   regles();
-  joueur := creaPerso();
+  joueur := afficheCreationPerso();
   ville(joueur, dormi);
 end;
 
