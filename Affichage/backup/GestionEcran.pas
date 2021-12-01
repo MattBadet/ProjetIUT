@@ -111,8 +111,6 @@ implementation
       couleurFond(0);
     end;
 
-
-
     procedure changerTailleConsole(largeur,hauteur : Integer);
     var
        Con: THandle;
@@ -134,7 +132,7 @@ implementation
         Rect.Bottom := Size.Y-11;
         SetConsoleWindowInfo(Con, True, Rect);
 
-        Wnd := GetConsoleWindow;
+        Wnd := GetConsoleWindow;               
 
         SetWindowPos(Wnd, 0, 0, 0, 0, 0, SWP_NOSIZE);
     end;
@@ -246,12 +244,6 @@ implementation
     procedure ecrireEnPosition(position : coordonnees; texte: string);
     begin
       deplacerCurseur(position);
-      write(texte);
-    end;
-
-    procedure ecrireEnPositionXY(x,y : Integer; texte: string);
-    begin
-      deplacerCurseurXY(x,y);
       write(texte);
     end;
 
