@@ -15,7 +15,6 @@ type
   end;
 
 function combat(joueur : player): player;
-function calculLvl(joueur: personnage): integer;h
 
 implementation
 
@@ -85,7 +84,7 @@ function loose(joueur : personnage): personnage;
 begin
   joueur.vieActu := (joueur.vieBase div 5);
   result := joueur;
-  afficheDeadMenu;
+  affichageLoose;
 end;
 
 //génération des drop en cas de victoire

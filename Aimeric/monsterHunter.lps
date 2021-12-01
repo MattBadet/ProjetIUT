@@ -8,8 +8,13 @@
       <Unit0>
         <Filename Value="monsterHunter.lpr"/>
         <IsPartOfProject Value="True"/>
+<<<<<<< HEAD
         <CursorPos X="50" Y="7"/>
         <UsageCount Value="82"/>
+=======
+        <CursorPos X="9" Y="5"/>
+        <UsageCount Value="81"/>
+>>>>>>> parent of 23f7538 (bon j'ai fini pour ce soir frero)
         <Loaded Value="True"/>
       </Unit0>
       <Unit1>
@@ -17,6 +22,7 @@
         <IsPartOfProject Value="True"/>
         <UnitName Value="combatUnit"/>
         <EditorIndex Value="2"/>
+<<<<<<< HEAD
 <<<<<<< HEAD
         <TopLine Value="120"/>
         <CursorPos X="51" Y="129"/>
@@ -26,6 +32,11 @@
         <CursorPos X="44" Y="153"/>
         <UsageCount Value="73"/>
 >>>>>>> parent of 7202d16 (hjsdhjhdsdh)
+=======
+        <TopLine Value="137"/>
+        <CursorPos X="59" Y="144"/>
+        <UsageCount Value="72"/>
+>>>>>>> parent of 23f7538 (bon j'ai fini pour ce soir frero)
         <Loaded Value="True"/>
       </Unit1>
       <Unit2>
@@ -33,6 +44,7 @@
         <IsPartOfProject Value="True"/>
         <UnitName Value="menuUnit"/>
         <EditorIndex Value="1"/>
+<<<<<<< HEAD
         <TopLine Value="5"/>
         <CursorPos X="15" Y="85"/>
 <<<<<<< HEAD
@@ -41,6 +53,11 @@
         <FoldState Value=" T3D0d121f"/>
         <UsageCount Value="68"/>
 >>>>>>> parent of 7202d16 (hjsdhjhdsdh)
+=======
+        <CursorPos X="24" Y="115"/>
+        <FoldState Value=" T3D0d_"/>
+        <UsageCount Value="67"/>
+>>>>>>> parent of 23f7538 (bon j'ai fini pour ce soir frero)
         <Loaded Value="True"/>
       </Unit2>
       <Unit3>
@@ -54,8 +71,12 @@
 =======
         <TopLine Value="272"/>
         <CursorPos X="45" Y="285"/>
+<<<<<<< HEAD
         <UsageCount Value="27"/>
 >>>>>>> parent of 7202d16 (hjsdhjhdsdh)
+=======
+        <UsageCount Value="26"/>
+>>>>>>> parent of 23f7538 (bon j'ai fini pour ce soir frero)
         <Loaded Value="True"/>
       </Unit3>
       <Unit4>
@@ -75,9 +96,14 @@
       </Unit5>
       <Unit6>
         <Filename Value="cantine.pas"/>
+        <IsVisibleTab Value="True"/>
         <EditorIndex Value="5"/>
+<<<<<<< HEAD
         <TopLine Value="48"/>
         <CursorPos X="49" Y="52"/>
+=======
+        <CursorPos X="17" Y="8"/>
+>>>>>>> parent of 23f7538 (bon j'ai fini pour ce soir frero)
         <UsageCount Value="12"/>
         <Loaded Value="True"/>
       </Unit6>
@@ -105,8 +131,13 @@
       <Unit10>
         <Filename Value="affichagemenu.pas"/>
         <EditorIndex Value="8"/>
+<<<<<<< HEAD
         <TopLine Value="359"/>
         <CursorPos X="32" Y="19"/>
+=======
+        <TopLine Value="13"/>
+        <CursorPos X="69" Y="18"/>
+>>>>>>> parent of 23f7538 (bon j'ai fini pour ce soir frero)
         <UsageCount Value="10"/>
         <Loaded Value="True"/>
       </Unit10>
@@ -379,7 +410,14 @@
         <Filename Value="cantine.pas"/>
         <Caret Line="46" Column="3" TopLine="37"/>
       </Position29>
+<<<<<<< HEAD
 >>>>>>> parent of 7202d16 (hjsdhjhdsdh)
+=======
+      <Position30>
+        <Filename Value="cantine.pas"/>
+        <Caret Line="8" Column="30"/>
+      </Position30>
+>>>>>>> parent of 23f7538 (bon j'ai fini pour ce soir frero)
     </JumpHistory>
   </ProjectSession>
 </CONFIG>
