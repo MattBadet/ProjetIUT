@@ -370,11 +370,11 @@ begin
     deplacerCurseurXY(88,22);
     readln(choix);
     Case choix of
-      1:menuPartie();
+      1:affichemenuPartie();
       2:credit();
       3:write('');
       else
-        menuPrincipal();
+        afficheville();
       end;
 end;
 

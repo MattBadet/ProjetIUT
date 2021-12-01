@@ -7,21 +7,21 @@ interface
 uses
   Classes, SysUtils, GestionEcran, affichageObjet, crtperso;
 
-procedure chambre(); // Menu de la chambre qui donne accès à l'inventaire et au repos
-procedure menuPartie(); // Affichage du menu d'une partie
-procedure menuPrincipal();
-procedure deadMenu();
-procedure inventaire(); // afffichage de l'inventaire
-procedure forge(); // afffichage de la forge
-procedure combat(monstre:Integer); // fenêtre de combat
-function cantine():Boolean; // Affichage de la cantine
-procedure creationPerso(); // menu de la création du personnage    *
-procedure victoire();
-procedure marchand(); // afffichage du marchand
+procedure afficheChambre(); // Menu de la chambre qui donne accès à l'inventaire et au repos
+procedure afficheMenuPartie(); // Affichage du menu d'une partie
+procedure afficheVille();
+procedure afficheDeadMenu();
+procedure afficheInventaire(); // afffichage de l'inventaire
+procedure afficheForge(); // afffichage de la forge
+procedure afficheCombat(monstre:Integer); // fenêtre de combat
+function afficheCantine():Boolean; // Affichage de la cantine
+procedure afficheCreationPerso(); // menu de la création du personnage    *
+procedure afficheVictoire();
+procedure afficheMarchand(); // afffichage du marchand
 
 implementation
 
-procedure deadMenu();
+procedure afficheDeadMenu();
 var
   x,y:Integer;
 begin
@@ -62,7 +62,7 @@ begin
     write('(_.-.__.__./  /                                                `\ /''                                              \  \.__.__.-._)');
 end;
 
-procedure victoire();
+procedure afficheVictoire();
 var
   x,y:Integer;
 begin
@@ -117,7 +117,7 @@ begin
     write(pv,'/',pvMax);
 end;
 
-procedure combat(monstre:Integer); // fenêtre de combat
+procedure afficheCombat(monstre:Integer); // fenêtre de combat
 begin
     effacerEcran();
     affichage(15,5,'hero');
@@ -131,7 +131,12 @@ begin
     vie(210,250,105,28);
 end;
 
-procedure inventaire(); // afffichage de l'inventaire
+procedure precombat(); // ecran de liaison entre la ville et le combat
+begin
+
+end;
+
+procedure afficheInventaire(); // afffichage de l'inventaire
 begin
     effacerEcran();
     dessinerCadreXY(1,1,148,33,simple,white,black);
@@ -168,7 +173,7 @@ begin
     dessinerCadreXY(44,24,144,31,simple,white,black);
 end;
 
-procedure chambre(); // Menu de la chambre qui donne accès à l'inventaire et au repos
+procedure afficheChambre(); // Menu de la chambre qui donne accès à l'inventaire et au repos
 begin
     effacerEcran();
     affichage(0,0,'plancher');
@@ -177,7 +182,7 @@ begin
     affichage(90,9,'grLit');
 end;
 
-procedure forge(); // afffichage de la forge
+procedure afficheForge(); // afffichage de la forge
 begin
     effacerEcran();
     dessinerCadreXY(1,1,148,34,simple,white,black);
@@ -217,7 +222,7 @@ begin
     dessinerCadreXY(44,22,144,29,simple,white,black);
 end;
 
-function cantine():Boolean; // Affichage de la cantine
+function afficheCantine():Boolean; // Affichage de la cantine
 begin
     effacerEcran();
     dessinerCadreXY(2,5,48,30,simple,white,black);
@@ -231,7 +236,7 @@ begin
     affichage(110,6,'biere');
 end;
 
-procedure marchand(); // afffichage du marchand
+procedure afficheMarchand(); // afffichage du marchand
 begin
     effacerEcran();
     dessinerCadreXY(1,1,148,34,simple,white,black);
@@ -268,10 +273,10 @@ begin
     write('Objet Marchand');
     // test statistique objet
     affichage(50,8,'epee');
-    dessinerCadreXY(44,26,144,32,simple,white,black);
+    dessinerCadreXY(44,25,144,32,simple,white,black);
 end;
 
-procedure menuPartie(); // Affichage du menu d'une partie
+procedure afficheMenuPartie(); // Affichage du menu d'une partie
 begin
     effacerEcran();
     // Module Marchand
@@ -311,7 +316,7 @@ begin
 
 end;
 
-procedure creationPerso(); // menu de la création du personnage
+procedure afficheCreationPerso(); // menu de la création du personnage
 var
   choix:Integer; // contient le choix du menu
 begin
@@ -337,7 +342,7 @@ begin
     readln(choix);
 end;
 
-procedure menuPrincipal(); // menu principal du jeux
+procedure afficheVille(); // menu de la ville
 var
   choix:Integer; // contient le choix du menu
 begin
@@ -365,11 +370,11 @@ begin
     deplacerCurseurXY(88,22);
     readln(choix);
     Case choix of
-      1:menuPartie();
+      1:affichemenuPartie();
       2:credit();
       3:write('');
       else
-        menuPrincipal();
+        affichemenuPrincipal();
       end;
 end;
 

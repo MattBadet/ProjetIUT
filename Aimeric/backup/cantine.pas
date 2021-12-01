@@ -5,7 +5,7 @@ unit cantine;
 interface
 
 uses
-  Classes, SysUtils, affichagemenu;
+  Classes, SysUtils;
 
 type
   menu = packed record
