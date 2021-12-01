@@ -2,24 +2,14 @@
 <CONFIG>
   <ProjectSession>
     <PathDelim Value="\"/>
-    <Version Value="11"/>
+    <Version Value="10"/>
     <BuildModes Active="Default"/>
-<<<<<<< Updated upstream
     <Units Count="16">
       <Unit0>
         <Filename Value="monsterHunter.lpr"/>
         <IsPartOfProject Value="True"/>
         <CursorPos X="50" Y="7"/>
         <UsageCount Value="83"/>
-=======
-    <Units Count="9">
-      <Unit0>
-        <Filename Value="monsterHunter.lpr"/>
-        <IsPartOfProject Value="True"/>
-        <IsVisibleTab Value="True"/>
-        <CursorPos X="25" Y="7"/>
-        <UsageCount Value="79"/>
->>>>>>> Stashed changes
         <Loaded Value="True"/>
       </Unit0>
       <Unit1>
@@ -37,30 +27,17 @@
         <IsPartOfProject Value="True"/>
         <UnitName Value="menuUnit"/>
         <EditorIndex Value="1"/>
-<<<<<<< Updated upstream
-        <TopLine Value="5"/>
-        <CursorPos X="15" Y="85"/>
+        <CursorPos X="38" Y="11"/>
         <UsageCount Value="69"/>
-=======
-        <TopLine Value="102"/>
-        <CursorPos X="29" Y="114"/>
-        <UsageCount Value="65"/>
->>>>>>> Stashed changes
         <Loaded Value="True"/>
       </Unit2>
       <Unit3>
         <Filename Value="utilities.pas"/>
         <IsPartOfProject Value="True"/>
         <EditorIndex Value="3"/>
-<<<<<<< Updated upstream
         <TopLine Value="36"/>
         <CursorPos X="35" Y="41"/>
         <UsageCount Value="28"/>
-=======
-        <TopLine Value="263"/>
-        <CursorPos X="14" Y="268"/>
-        <UsageCount Value="24"/>
->>>>>>> Stashed changes
         <Loaded Value="True"/>
       </Unit3>
       <Unit4>
@@ -81,13 +58,8 @@
       <Unit6>
         <Filename Value="cantine.pas"/>
         <EditorIndex Value="5"/>
-<<<<<<< Updated upstream
         <TopLine Value="48"/>
         <CursorPos X="49" Y="52"/>
-=======
-        <TopLine Value="5"/>
-        <CursorPos X="13" Y="19"/>
->>>>>>> Stashed changes
         <UsageCount Value="12"/>
         <Loaded Value="True"/>
       </Unit6>
@@ -107,7 +79,6 @@
         <UsageCount Value="12"/>
         <Loaded Value="True"/>
       </Unit8>
-<<<<<<< Updated upstream
       <Unit9>
         <Filename Value="..\Affichage\affichage.lpr"/>
         <EditorIndex Value="-1"/>
@@ -147,28 +118,22 @@
       </Unit13>
       <Unit14>
         <Filename Value="GestionEcran.pas"/>
-        <EditorIndex Value="13"/>
-        <TopLine Value="123"/>
-        <CursorPos X="16" Y="134"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="12"/>
+        <TopLine Value="142"/>
+        <CursorPos X="74" Y="155"/>
         <UsageCount Value="10"/>
         <Loaded Value="True"/>
       </Unit14>
       <Unit15>
         <Filename Value="monsterHunter.lps"/>
-        <IsVisibleTab Value="True"/>
-        <EditorIndex Value="12"/>
-        <TopLine Value="16"/>
+        <EditorIndex Value="-1"/>
         <CursorPos X="54" Y="26"/>
         <UsageCount Value="10"/>
-        <Loaded Value="True"/>
         <DefaultSyntaxHighlighter Value="XML"/>
       </Unit15>
     </Units>
-    <JumpHistory Count="24" HistoryIndex="23">
-=======
-    </Units>
-    <JumpHistory Count="29" HistoryIndex="28">
->>>>>>> Stashed changes
+    <JumpHistory Count="25" HistoryIndex="24">
       <Position1>
         <Filename Value="monsterHunter.lpr"/>
         <Caret Line="18" Column="23"/>
@@ -262,39 +227,13 @@
         <Caret Line="139" Column="33" TopLine="123"/>
       </Position23>
       <Position24>
-<<<<<<< Updated upstream
         <Filename Value="inventaire.pas"/>
         <Caret Line="129" Column="34" TopLine="129"/>
       </Position24>
-=======
-        <Filename Value="combatunit.pas"/>
-        <Caret Line="17" Column="30" TopLine="4"/>
-      </Position24>
       <Position25>
-        <Filename Value="combatunit.pas"/>
-        <Caret Line="15" Column="41" TopLine="4"/>
+        <Filename Value="GestionEcran.pas"/>
+        <Caret Line="134" Column="16" TopLine="123"/>
       </Position25>
-      <Position26>
-        <Filename Value="combatunit.pas"/>
-        <Caret Line="5" Column="14"/>
-      </Position26>
-      <Position27>
-        <Filename Value="combatunit.pas"/>
-        <Caret Line="7" Column="62"/>
-      </Position27>
-      <Position28>
-        <Filename Value="cantine.pas"/>
-        <Caret Line="25" Column="25" TopLine="12"/>
-      </Position28>
-      <Position29>
-        <Filename Value="cantine.pas"/>
-        <Caret Line="19" Column="16" TopLine="4"/>
-      </Position29>
->>>>>>> Stashed changes
     </JumpHistory>
-    <RunParams>
-      <FormatVersion Value="2"/>
-      <Modes Count="0" ActiveMode="default"/>
-    </RunParams>
   </ProjectSession>
 </CONFIG>
