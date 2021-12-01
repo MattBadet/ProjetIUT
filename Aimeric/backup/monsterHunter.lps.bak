@@ -28,11 +28,14 @@
         <UnitName Value="menuUnit"/>
         <EditorIndex Value="1"/>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <TopLine Value="5"/>
         <CursorPos X="15" Y="85"/>
         <FoldState Value=" T3D0d121f"/>
         <UsageCount Value="68"/>
 =======
+=======
+>>>>>>> parent of 23f7538 (bon j'ai fini pour ce soir frero)
         <TopLine Value="95"/>
         <CursorPos X="24" Y="115"/>
         <FoldState Value=" T3D0d_"/>
@@ -68,8 +71,12 @@
         <Filename Value="cantine.pas"/>
         <EditorIndex Value="5"/>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <TopLine Value="48"/>
         <CursorPos X="49" Y="52"/>
+=======
+        <CursorPos X="30" Y="8"/>
+>>>>>>> parent of 23f7538 (bon j'ai fini pour ce soir frero)
 =======
         <CursorPos X="30" Y="8"/>
 >>>>>>> parent of 23f7538 (bon j'ai fini pour ce soir frero)
@@ -81,9 +88,12 @@
         <IsVisibleTab Value="True"/>
         <EditorIndex Value="6"/>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <TopLine Value="58"/>
         <CursorPos X="44" Y="64"/>
 =======
+=======
+>>>>>>> parent of 23f7538 (bon j'ai fini pour ce soir frero)
         <TopLine Value="59"/>
         <CursorPos X="27" Y="225"/>
 >>>>>>> parent of 23f7538 (bon j'ai fini pour ce soir frero)
@@ -146,11 +156,19 @@
       <Position1>
         <Filename Value="monsterHunter.lpr"/>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <Caret Line="19" Column="34" TopLine="4"/>
       </Position1>
       <Position2>
         <Filename Value="monsterHunter.lpr"/>
         <Caret Line="20" Column="27" TopLine="4"/>
+=======
+        <Caret Line="5" Column="15"/>
+      </Position1>
+      <Position2>
+        <Filename Value="monsterHunter.lpr"/>
+        <Caret Line="45" Column="21" TopLine="34"/>
+>>>>>>> parent of 23f7538 (bon j'ai fini pour ce soir frero)
       </Position2>
       <Position3>
         <Filename Value="menuunit.pas"/>
@@ -170,6 +188,7 @@
       </Position6>
       <Position7>
         <Filename Value="monsterHunter.lpr"/>
+<<<<<<< HEAD
         <Caret Line="14" Column="40"/>
       </Position7>
       <Position8>
@@ -269,6 +288,8 @@
       </Position2>
       <Position3>
         <Filename Value="monsterHunter.lpr"/>
+=======
+>>>>>>> parent of 23f7538 (bon j'ai fini pour ce soir frero)
         <Caret Line="15" Column="29" TopLine="4"/>
       </Position3>
       <Position4>
