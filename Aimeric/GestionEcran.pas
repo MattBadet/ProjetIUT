@@ -108,8 +108,6 @@ implementation
       couleurFond(0);
     end;
 
-
-
     procedure changerTailleConsole(largeur,hauteur : Integer);
     var
        Con: THandle;

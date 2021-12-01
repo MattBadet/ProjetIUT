@@ -1,6 +1,7 @@
 program monsterHunter;
 
-uses menuUnit;
+uses menuUnit, unit1;
+
 begin
   menu();
 end.

@@ -98,7 +98,7 @@ end;
 procedure nouvellePartie();
 
 var
-  joueur : personnage; //record du joueur
+  joueur : player; //record du joueur
   dormi : boolean; //boolean indiquant si le joueur a fait une chasse depuis sa
 
 begin
