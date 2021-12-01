@@ -8,7 +8,7 @@
       <Unit0>
         <Filename Value="monsterHunter.lpr"/>
         <IsPartOfProject Value="True"/>
-        <CursorPos X="9" Y="5"/>
+        <CursorPos X="15" Y="3"/>
         <UsageCount Value="83"/>
         <Loaded Value="True"/>
       </Unit0>
@@ -16,7 +16,6 @@
         <Filename Value="combatunit.pas"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="combatUnit"/>
-        <IsVisibleTab Value="True"/>
         <EditorIndex Value="2"/>
         <TopLine Value="136"/>
         <CursorPos X="18" Y="154"/>
@@ -28,8 +27,8 @@
         <IsPartOfProject Value="True"/>
         <UnitName Value="menuUnit"/>
         <EditorIndex Value="1"/>
-        <TopLine Value="4"/>
-        <CursorPos Y="56"/>
+        <TopLine Value="82"/>
+        <CursorPos X="18" Y="101"/>
         <FoldState Value=" T3D0d121f"/>
         <UsageCount Value="69"/>
         <Loaded Value="True"/>
@@ -38,8 +37,8 @@
         <Filename Value="utilities.pas"/>
         <IsPartOfProject Value="True"/>
         <EditorIndex Value="3"/>
-        <TopLine Value="31"/>
-        <CursorPos X="19" Y="49"/>
+        <TopLine Value="25"/>
+        <CursorPos X="8" Y="41"/>
         <UsageCount Value="28"/>
         <Loaded Value="True"/>
       </Unit3>
@@ -52,16 +51,16 @@
       </Unit4>
       <Unit5>
         <Filename Value="inventaire.pas"/>
+        <IsVisibleTab Value="True"/>
         <EditorIndex Value="4"/>
-        <TopLine Value="150"/>
-        <CursorPos X="17" Y="170"/>
+        <TopLine Value="16"/>
+        <CursorPos X="35" Y="30"/>
         <UsageCount Value="12"/>
         <Loaded Value="True"/>
       </Unit5>
       <Unit6>
         <Filename Value="cantine.pas"/>
         <EditorIndex Value="5"/>
-        <TopLine Value="50"/>
         <CursorPos X="3" Y="74"/>
         <UsageCount Value="12"/>
         <Loaded Value="True"/>
@@ -69,7 +68,6 @@
       <Unit7>
         <Filename Value="forge.pas"/>
         <EditorIndex Value="6"/>
-        <TopLine Value="58"/>
         <CursorPos X="27" Y="225"/>
         <UsageCount Value="12"/>
         <Loaded Value="True"/>
@@ -77,8 +75,8 @@
       <Unit8>
         <Filename Value="perso.pas"/>
         <EditorIndex Value="7"/>
-        <TopLine Value="2"/>
-        <CursorPos Y="9"/>
+        <TopLine Value="17"/>
+        <CursorPos X="19" Y="35"/>
         <UsageCount Value="12"/>
         <Loaded Value="True"/>
       </Unit8>
@@ -90,7 +88,6 @@
       <Unit10>
         <Filename Value="affichagemenu.pas"/>
         <EditorIndex Value="8"/>
-        <TopLine Value="18"/>
         <CursorPos X="21" Y="377"/>
         <FoldState Value=" T3N0d5 pjFkN073]92jH0X2{"/>
         <UsageCount Value="10"/>
@@ -122,124 +119,124 @@
     </Units>
     <JumpHistory Count="30" HistoryIndex="29">
       <Position1>
-        <Filename Value="menuunit.pas"/>
-        <Caret Line="11" TopLine="10"/>
+        <Filename Value="combatunit.pas"/>
+        <Caret Line="190" Column="44"/>
       </Position1>
       <Position2>
         <Filename Value="combatunit.pas"/>
-        <Caret Line="190" Column="44"/>
+        <Caret Line="17" Column="30" TopLine="4"/>
       </Position2>
       <Position3>
         <Filename Value="combatunit.pas"/>
-        <Caret Line="17" Column="30" TopLine="4"/>
+        <Caret Line="15" Column="41" TopLine="4"/>
       </Position3>
       <Position4>
         <Filename Value="combatunit.pas"/>
-        <Caret Line="15" Column="41" TopLine="4"/>
+        <Caret Line="5" Column="14"/>
       </Position4>
       <Position5>
         <Filename Value="combatunit.pas"/>
-        <Caret Line="5" Column="14"/>
+        <Caret Line="7" Column="62"/>
       </Position5>
       <Position6>
-        <Filename Value="combatunit.pas"/>
-        <Caret Line="7" Column="62"/>
-      </Position6>
-      <Position7>
         <Filename Value="cantine.pas"/>
         <Caret Line="25" Column="25" TopLine="12"/>
+      </Position6>
+      <Position7>
+        <Filename Value="utilities.pas"/>
+        <Caret Line="268" Column="14" TopLine="263"/>
       </Position7>
       <Position8>
         <Filename Value="utilities.pas"/>
-        <Caret Line="268" Column="14" TopLine="263"/>
+        <Caret Line="241" Column="17" TopLine="231"/>
       </Position8>
       <Position9>
-        <Filename Value="utilities.pas"/>
-        <Caret Line="241" Column="17" TopLine="231"/>
+        <Filename Value="cantine.pas"/>
+        <Caret Line="19" Column="16" TopLine="4"/>
       </Position9>
       <Position10>
         <Filename Value="cantine.pas"/>
-        <Caret Line="19" Column="16" TopLine="4"/>
+        <Caret Line="18" Column="30"/>
       </Position10>
       <Position11>
         <Filename Value="cantine.pas"/>
-        <Caret Line="18" Column="30"/>
+        <Caret Line="21" Column="28" TopLine="11"/>
       </Position11>
       <Position12>
         <Filename Value="cantine.pas"/>
-        <Caret Line="21" Column="28" TopLine="11"/>
+        <Caret Line="19" Column="37" TopLine="2"/>
       </Position12>
       <Position13>
         <Filename Value="cantine.pas"/>
-        <Caret Line="19" Column="37" TopLine="2"/>
+        <Caret Line="28" Column="23" TopLine="20"/>
       </Position13>
       <Position14>
         <Filename Value="cantine.pas"/>
-        <Caret Line="28" Column="23" TopLine="20"/>
+        <Caret Line="59" Column="12" TopLine="46"/>
       </Position14>
       <Position15>
         <Filename Value="cantine.pas"/>
-        <Caret Line="59" Column="12" TopLine="46"/>
+        <Caret Line="16" Column="37"/>
       </Position15>
       <Position16>
         <Filename Value="cantine.pas"/>
-        <Caret Line="16" Column="37"/>
+        <Caret Line="8" Column="17"/>
       </Position16>
       <Position17>
-        <Filename Value="cantine.pas"/>
-        <Caret Line="8" Column="17"/>
-      </Position17>
-      <Position18>
         <Filename Value="perso.pas"/>
         <Caret Line="30" Column="3"/>
+      </Position17>
+      <Position18>
+        <Filename Value="cantine.pas"/>
+        <Caret Line="40" Column="34" TopLine="24"/>
       </Position18>
       <Position19>
         <Filename Value="cantine.pas"/>
-        <Caret Line="40" Column="34" TopLine="24"/>
+        <Caret Line="8" Column="35"/>
       </Position19>
       <Position20>
-        <Filename Value="cantine.pas"/>
-        <Caret Line="8" Column="35"/>
+        <Filename Value="affichagemenu.pas"/>
+        <Caret Line="373" Column="16" TopLine="347"/>
       </Position20>
       <Position21>
         <Filename Value="affichagemenu.pas"/>
-        <Caret Line="373" Column="16" TopLine="347"/>
+        <Caret Line="377" Column="21" TopLine="350"/>
       </Position21>
       <Position22>
-        <Filename Value="affichagemenu.pas"/>
-        <Caret Line="377" Column="21" TopLine="350"/>
-      </Position22>
-      <Position23>
         <Filename Value="perso.pas"/>
         <Caret Line="30" Column="3"/>
+      </Position22>
+      <Position23>
+        <Filename Value="cantine.pas"/>
+        <Caret Line="49" Column="13" TopLine="33"/>
       </Position23>
       <Position24>
         <Filename Value="cantine.pas"/>
-        <Caret Line="49" Column="13" TopLine="33"/>
+        <Caret Line="62" Column="12" TopLine="46"/>
       </Position24>
       <Position25>
         <Filename Value="cantine.pas"/>
-        <Caret Line="62" Column="12" TopLine="46"/>
+        <Caret Line="63" Column="14" TopLine="47"/>
       </Position25>
       <Position26>
         <Filename Value="cantine.pas"/>
-        <Caret Line="63" Column="14" TopLine="47"/>
+        <Caret Line="69" Column="3" TopLine="50"/>
       </Position26>
       <Position27>
         <Filename Value="cantine.pas"/>
-        <Caret Line="69" Column="3" TopLine="50"/>
+        <Caret Line="68" Column="12" TopLine="50"/>
       </Position27>
       <Position28>
         <Filename Value="cantine.pas"/>
-        <Caret Line="68" Column="12" TopLine="50"/>
+        <Caret Line="69" Column="14" TopLine="50"/>
       </Position28>
       <Position29>
         <Filename Value="cantine.pas"/>
-        <Caret Line="69" Column="14" TopLine="50"/>
+        <Caret Line="73" Column="12" TopLine="50"/>
       </Position29>
       <Position30>
-        <Filename Value="cantine.pas"/>
-        <Caret Line="73" Column="12" TopLine="50"/>
+        <Filename Value="perso.pas"/>
+        <Caret Line="25" Column="8"/>
       </Position30>
     </JumpHistory>
     <RunParams>
