@@ -10,8 +10,13 @@
         <IsPartOfProject Value="True"/>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         <CursorPos X="50" Y="7"/>
         <UsageCount Value="82"/>
+=======
+        <CursorPos X="9" Y="5"/>
+        <UsageCount Value="81"/>
+>>>>>>> parent of 23f7538 (bon j'ai fini pour ce soir frero)
 =======
         <CursorPos X="9" Y="5"/>
         <UsageCount Value="81"/>
@@ -27,6 +32,7 @@
         <IsPartOfProject Value="True"/>
         <UnitName Value="combatUnit"/>
         <EditorIndex Value="2"/>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -48,6 +54,11 @@
         <CursorPos X="59" Y="144"/>
         <UsageCount Value="72"/>
 >>>>>>> parent of 23f7538 (bon j'ai fini pour ce soir frero)
+=======
+        <TopLine Value="137"/>
+        <CursorPos X="59" Y="144"/>
+        <UsageCount Value="72"/>
+>>>>>>> parent of 23f7538 (bon j'ai fini pour ce soir frero)
         <Loaded Value="True"/>
       </Unit1>
       <Unit2>
@@ -55,6 +66,7 @@
         <IsPartOfProject Value="True"/>
         <UnitName Value="menuUnit"/>
         <EditorIndex Value="1"/>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         <TopLine Value="5"/>
@@ -65,6 +77,11 @@
         <FoldState Value=" T3D0d121f"/>
         <UsageCount Value="68"/>
 >>>>>>> parent of 7202d16 (hjsdhjhdsdh)
+=======
+        <CursorPos X="24" Y="115"/>
+        <FoldState Value=" T3D0d_"/>
+        <UsageCount Value="67"/>
+>>>>>>> parent of 23f7538 (bon j'ai fini pour ce soir frero)
 =======
         <CursorPos X="24" Y="115"/>
         <FoldState Value=" T3D0d_"/>
@@ -90,8 +107,12 @@
         <CursorPos X="45" Y="285"/>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         <UsageCount Value="27"/>
 >>>>>>> parent of 7202d16 (hjsdhjhdsdh)
+=======
+        <UsageCount Value="26"/>
+>>>>>>> parent of 23f7538 (bon j'ai fini pour ce soir frero)
 =======
         <UsageCount Value="26"/>
 >>>>>>> parent of 23f7538 (bon j'ai fini pour ce soir frero)
@@ -121,8 +142,12 @@
         <EditorIndex Value="5"/>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         <TopLine Value="48"/>
         <CursorPos X="49" Y="52"/>
+=======
+        <CursorPos X="17" Y="8"/>
+>>>>>>> parent of 23f7538 (bon j'ai fini pour ce soir frero)
 =======
         <CursorPos X="17" Y="8"/>
 >>>>>>> parent of 23f7538 (bon j'ai fini pour ce soir frero)
@@ -158,8 +183,13 @@
         <EditorIndex Value="8"/>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         <TopLine Value="359"/>
         <CursorPos X="32" Y="19"/>
+=======
+        <TopLine Value="13"/>
+        <CursorPos X="69" Y="18"/>
+>>>>>>> parent of 23f7538 (bon j'ai fini pour ce soir frero)
 =======
         <TopLine Value="13"/>
         <CursorPos X="69" Y="18"/>
