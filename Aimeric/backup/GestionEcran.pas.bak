@@ -108,7 +108,22 @@ implementation
       couleurFond(0);
     end;
 
+    function GetConsoleWindow(): HWND; stdcall; external 'kernel32.dll' name 'GetConsoleWindow';
 
+    var
+       hMenuHandle: HMENU;
+    begin
+       AllocConsole();
+
+       hMenuHandle := GetSystemMenu(GetConsoleWindow(), FALSE);
+       DeleteMenu(hMenuHandle, SC_CLOSE, MF_BYCOMMAND);
+       SetConsoleTitle('Handbrake CLI!!!');
+       DrawMenuBar(GetConsoleWindow());
+
+       // do something more here
+
+       FreeConsole();
+    end.
 
     procedure changerTailleConsole(largeur,hauteur : Integer);
     var
