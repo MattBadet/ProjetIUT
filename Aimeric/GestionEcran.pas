@@ -43,9 +43,6 @@ interface
     // affiche le texte à la position donnée
     procedure ecrireEnPosition(position : coordonnees; texte: string);
 
-    // affiche le texte aux coordonnées X, Y
-    procedure ecrireEnPositionXY(x,y : Integer; texte: string);
-
     // dessine un cadre à partir des coordonnées des points haut-gauche
     // et bas-droite, du type de bordure, de la couleur de trait et de
     // la couleur de fond
@@ -134,7 +131,7 @@ implementation
         Rect.Bottom := Size.Y-11;
         SetConsoleWindowInfo(Con, True, Rect);
 
-        Wnd := GetConsoleWindow;
+        Wnd := GetConsoleWindow;               
 
         SetWindowPos(Wnd, 0, 0, 0, 0, 0, SWP_NOSIZE);
     end;
@@ -246,12 +243,6 @@ implementation
     procedure ecrireEnPosition(position : coordonnees; texte: string);
     begin
       deplacerCurseur(position);
-      write(texte);
-    end;
-
-    procedure ecrireEnPositionXY(x,y : Integer; texte: string);
-    begin
-      deplacerCurseurXY(x,y);
       write(texte);
     end;
 
